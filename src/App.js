@@ -1,10 +1,15 @@
-import Carousel from './components/Carousel';
+import { BrowserRouter, BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import About from './pages/About';
 
 function App() {
   return (
-    <div className="App">
-      <Carousel />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={ <Home /> }>Home</Route>
+        <Route path="/About" element={ <About /> }>About</Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
