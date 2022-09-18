@@ -1,6 +1,7 @@
 import React from 'react'
 //Assets
 import videoBG from '../assets/videos/aoneVideoBG.mp4'
+
 //Components
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
