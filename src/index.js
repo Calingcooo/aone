@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './assets/fonts/Poppins-Regular.ttf';
 import './index.css';
 import App from './App';
 
