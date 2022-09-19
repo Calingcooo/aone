@@ -61,6 +61,7 @@ function Navbar ()  {
                         <ul className="flex flex-col uppercase text-xl md:flex-row md:item-center items-center justify-center space-y-8 md:flex md:space-x-4 md:space-y-0">
                             <Link to="/" className=""><h3 className="text-sky-800 uppercase transition duration-0 hover:duration-500 hover:underline">home</h3></Link>
                             <Link to="/About"  className=""><h3 className="text-sky-800 uppercase hover:underline">about the project</h3></Link>             
+                            <a href='#modelUnits'>Model Units</a>
                         </ul>
                     </div>
                 </div>
