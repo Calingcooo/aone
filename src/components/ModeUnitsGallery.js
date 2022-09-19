@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 
 //Model Units Images
 import UnitOne from '../assets/images/ModelUnits/UnitOne.webp'
@@ -21,10 +21,23 @@ function ModelUnitsGallery() {
 
     const [ currentIndex, setCurrentIndex ] = useState(0);
 
+    const slideRef = useRef();
+
+    const removeAnimation = () => {
+        slideRef.current.classList.remove('fade-anim')
+    }
+
+    //Slider Animation and Autoplay
+    useEffect(() => {
+        slideRef.current.addEventListener('animationend', removeAnimation)
+        startSlider()
+    }, []);
+
     //Click Next Handler
     const handleNext = () => {
         count = ( count + 1 ) % Units.length
         setCurrentIndex(count)
+        slideRef.current.classList.add('fade-anim')
     }
 
     //Click Prev Handler
@@ -32,12 +45,19 @@ function ModelUnitsGallery() {
         const imgLength = Units.length
         count = ( currentIndex + imgLength - 1 ) % imgLength
         setCurrentIndex(count) 
+        slideRef.current.classList.add('fade-anim')
+    }
+
+    const startSlider = () => {
+        setInterval(() => {
+            handleNext();
+        }, 3000);
     }
 
   return (
     <div className='md:grid grid-cols-2 m-2 mt-5'>
 
-        <div className='flex flex-col justify-center'>
+        <div className='flex flex-col justify-center' id='modelUnits'>
             <h1 className='uppercase text-gray-800 text-2xl'>model units</h1>
             <p>Great stories begin at home, but what surrounds a home 
                 allows the chapters to fully unfold. Imagine a place where 
@@ -45,7 +65,7 @@ function ModelUnitsGallery() {
                 awaits one at the end of the day<span className='text-slate-500'>—and then make it a reality. </span>
             </p>
         </div>
-        <div className='w-full select-none relative'>
+        <div ref={slideRef} className='w-full select-none relative'>
             <div className='aspect-w-16 aspect-h-16 md:w-full md:h-full'>
                 <img src={Units[currentIndex]} alt='' />
             </div>

@@ -5,7 +5,7 @@ import LOGO from '../assets/images/LOGO.png'
 function Footer() {
   return (
 
-    <footer className="bg-white border-2 border-rose-500">
+    <footer className="bg-white">
     <div className="container p-6 mx-auto">
         <div className="lg:flex justify-evenly">
             <div className="w-full -mx-6 lg:w-2/5">
