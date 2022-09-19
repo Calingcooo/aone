@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+
 //1 Bedroom Studio Images
 import studioOne from '../data/Studio1BR'
 
@@ -16,11 +17,11 @@ function StudioOneGallery() {
         <img src={sliderData.image} className='h-full w-full'/>
 
         <div className='flex flex-row m-5 wi-full h-full'>
-            {studioOne.map((img, i) => 
+            {studioOne.map((img, i) => (
                 <div className='border m-5' key={img.id} >
                 <img src={img.image} alt={img.image} onClick={() => handleClick(i)} />
                 </div>
-            )}
+            ))}
         </div>
     </div>
        
