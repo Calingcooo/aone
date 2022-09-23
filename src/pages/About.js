@@ -2,8 +2,8 @@ import React from 'react'
 
 //components
 import Navbar from '../components/Navbar'
-
 import Footer from '../components/Footer'
+import AboutSection from '../components/pages/about/AboutSection'
 
 //document title
 import { TabTitle } from '../utils/GeneralFunctions'
@@ -14,7 +14,7 @@ function About() {
   return (
     <>
       <Navbar />
-        
+        <AboutSection />
       <Footer />
     </>
   )
