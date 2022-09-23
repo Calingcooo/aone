@@ -60,7 +60,7 @@ function Footer() {
         <hr className="h-px my-6 bg-gray-200 border-none" />
 
         <div>
-            <p className="text-center text-gray-500">© 2022 AOne - All rights reserved</p>
+            <p className="text-center text-gray-500">© 2022 <a href='https://aone.com.ph/' className='text-blue-800 hover:underline'>AOne</a> - All rights reserved</p>
         </div>
     </div>
 </footer>
