@@ -1,5 +1,35 @@
+@font-face {
+    font-family: Poppins;
+    src: url(./assets/fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Frutiger;
+    font-style: normal;
+    font-weight: normal;
+    src: url(./assets/fonts/Frutiger.woff) format('woff');
+    }
+    
+
+    @font-face {
+    font-family: Frutiger Bold;
+    font-style: normal;
+    font-weight: normal;
+    src: url(./assets/fonts/Frutiger_bold.woff) format('woff');
+}
+
+
+* {
+    font-family: Poppins;
+}
+
+p {
+    font-family: Frutiger;
+}
+
+
 .fade-anim img {
-    animation: fadeAnim 0.5s ease-out;
+    animation: fadeAnim 2s ease-out;
 }
 
 @keyframes fadeAnim {

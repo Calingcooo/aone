@@ -3,7 +3,7 @@ import React from 'react'
 //components
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import AboutSection from '../components/pages/about/AboutSection'
+import AboutSection from '../components/AboutSection'
 
 //document title
 import { TabTitle } from '../utils/GeneralFunctions'

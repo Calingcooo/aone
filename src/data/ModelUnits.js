@@ -1,7 +1,7 @@
-import UnitOne from '../assets/images/ModelUnits/UnitOne.webp'
-import UnitTwo from '../assets/images/ModelUnits/UnitTwo.webp'
-import UnitThree from '../assets/images/ModelUnits/UnitThree.webp'
-import UnitFour from '../assets/images/ModelUnits/UnitFour.webp'
+import UnitOne from '/images/ModelUnits/UnitOne.webp'
+import UnitTwo from '/images/ModelUnits/UnitOne.webp'
+import UnitThree from '/images/ModelUnits/UnitOne.webp'
+import UnitFour from '/images/ModelUnits/UnitOne.webp'
 
 
 const Units = [

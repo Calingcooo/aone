@@ -1,10 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react'
 
 //Model Units Images
-import UnitOne from '..../assets/images/'
-import UnitTwo from '...../assets/images/ModelUnits/UnitTwo.webp'
-import UnitThree from '...../assets/images/ModelUnits/UnitThree.webp'
-import UnitFour from '...../assets/images/ModelUnits/UnitFour.webp'
+import UnitOne from '../assets/images/ModelUnits/UnitOne.webp'
+import UnitTwo from '../assets/images/ModelUnits/UnitTwo.webp'
+import UnitThree from '../assets/images/ModelUnits/UnitThree.webp'
+import UnitFour from '../assets/images/ModelUnits/UnitFour.webp'
 
 //Model Unit Images
 const Units = [
