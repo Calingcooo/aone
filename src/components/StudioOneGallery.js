@@ -16,7 +16,7 @@ function StudioOneGallery() {
     <div className='block m-5 h-full'>
 
         <div className=''>
-            <img src={sliderData.image} className='aspect-w-16 aspect-h-16 md:w-full md:h-[600px]' />
+            <img src={sliderData.image} className='aspect-w-16 aspect-h-16 md:w-full md:h-[600px]' alt='IMAGE SLIDER'/>
         </div>
 
         <div className='flex flex-row justify-around items-center border'>

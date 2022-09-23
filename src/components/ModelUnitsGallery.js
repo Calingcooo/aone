@@ -1,10 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react'
 
 //Model Units Images
-import UnitOne from '..../assets/images/'
-import UnitTwo from '...../assets/images/ModelUnits/UnitTwo.webp'
-import UnitThree from '...../assets/images/ModelUnits/UnitThree.webp'
-import UnitFour from '...../assets/images/ModelUnits/UnitFour.webp'
+import UnitOne from '../assets/images/ModelUnits/UnitOne.webp'
+import UnitTwo from '../assets/images/ModelUnits/UnitTwo.webp'
+import UnitThree from '../assets/images/ModelUnits/UnitThree.webp'
+import UnitFour from '../assets/images/ModelUnits/UnitFour.webp'
 
 //Model Unit Images
 const Units = [
@@ -63,11 +63,19 @@ function ModelUnitsGallery() {
 
         <div className='flex flex-col justify-center col-span-2'>
             <h1 className=' text-gray-800 text-2xl uppercase'>model units</h1>
-            <p>Great stories begin at home, but what surrounds a home 
+            <p>
+                Great stories begin at home, but what surrounds a home 
                 allows the chapters to fully unfold. Imagine a place where 
                 one could enjoy city life while knowing that a personal hearth, 
                 awaits one at the end of the day<span className='text-slate-500'>—and then make it a reality. </span>
             </p>
+            <br />
+            <p>
+                The privileged few are frequently pressed for options, but at the 
+                crossroads of business and pleasure, growth and stillness, refinement 
+                and reimagining, there can only be AONE.
+             </p>
+
         </div>
         <div ref={slideRef} className='w-full col-span-2 select-none relative'>
             <div className='aspect-w-16 aspect-h-16 md:w-full md:h-full'>

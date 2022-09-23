@@ -1,5 +1,35 @@
+@font-face {
+    font-family: Poppins;
+    src: url(./assets/fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Frutiger;
+    font-style: normal;
+    font-weight: normal;
+    src: url(./assets/fonts/Frutiger.woff) format('woff');
+    }
+    
+
+    @font-face {
+    font-family: Frutiger Bold;
+    font-style: normal;
+    font-weight: normal;
+    src: url(./assets/fonts/Frutiger_bold.woff) format('woff');
+}
+
+
+* {
+    font-family: Poppins;
+}
+
+p {
+    font-family: Frutiger;
+}
+
+/* MODEL UNIT CAROUSEL */
 .fade-anim img {
-    animation: fadeAnim 0.5s ease-out;
+    animation: fadeAnim 2s ease-out;
 }
 
 @keyframes fadeAnim {
@@ -11,8 +41,49 @@
     }
 }
 
+/* BACK TO TOP */
+
+.arrow {
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.arrow span {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid #CCCC00;
+    border-right: 5px solid #CCCC00;
+    transform: rotate(225deg);
+    margin: -10px;
+    animation: scroll 2s infinite;
+}
+
+.arrow span:nth-child(2) {
+    animation-delay: -.2s;
+}
+
+.arrow span:nth-child(3) {
+    animation-delay: -.4s;
+}
+
+@keyframes scroll {
+    0% {
+        opacity: 1;
+        transform: rotate(225deg) translate(-20px, -20px);
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: rotate(225deg) translate(-20px, -20px);
+    }
+}
+
+
+
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
