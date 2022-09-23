@@ -6,8 +6,8 @@ function Navbar ()  {
   const [ navbar, setNavbar ] = useState(false);
 
   return (
-    <main className='bg-white bg-cover bg-center drop-shadow-md'>
-        <nav className="relative container-fluid p-0 mx-3.5">
+    <main className='fixed w-full backdrop-blur-sm bg-cover bg-center drop-shadow-md z-10'>
+        <nav className="container-fluid p-0 mx-3.5">
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex">
               <div>
                     <div className="flex items-center justify-between py-1 md:py-3 md:block">
@@ -59,9 +59,10 @@ function Navbar ()  {
                         }`}
                     >
                         <ul className="flex flex-col uppercase text-xl md:flex-row md:item-center items-center justify-center space-y-8 md:flex md:space-x-4 md:space-y-0">
-                            <Link to="/" className=""><h3 className="text-sky-800 uppercase transition duration-0 hover:duration-500 hover:underline">home</h3></Link>
-                            <Link to="/About"  className=""><h3 className="text-sky-800 uppercase hover:underline">about the project</h3></Link>             
-                            <a href='#modelUnits'>Model Units</a>
+                            <Link to="/" className=""><h3 className="text-yellow-300 font-bold uppercase px-5 hover:underline">home</h3></Link>
+                            <Link to="/About"  className=""><h3 className="text-yellow-300 font-bold px-5 uppercase hover:underline">about the project</h3></Link>             
+                            <a href='#modelUnits' className="text-yellow-300 font-bold px-5 uppercase hover:underline">Model Units</a>
+                            <a href='#modelUnits' className="text-yellow-300 font-bold px-5 uppercase hover:underline">Image Gallery</a>
                         </ul>
                     </div>
                 </div>
