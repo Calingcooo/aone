@@ -6,13 +6,13 @@ function Navbar ()  {
   const [ navbar, setNavbar ] = useState(false);
 
   return (
-    <main className='fixed w-full backdrop-blur-sm bg-cover bg-center drop-shadow-md z-10'>
+    <main className='block w-full fixed bg-white md:bg-transparent  md:backdrop-blur-sm bg-cover bg-center drop-shadow-md z-10'>
         <nav className="container-fluid p-0 mx-3.5">
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex">
               <div>
                     <div className="flex items-center justify-between py-1 md:py-3 md:block">
                         <a href="/">
-                            <img src={LOGO} className="h-20 md:h-20" alt="LOGO" />
+                            <img src={LOGO} className="h-14 md:h-20" alt="LOGO" />
                         </a>
                         <div className="md:hidden">
                             <button
@@ -61,8 +61,8 @@ function Navbar ()  {
                         <ul className="flex flex-col uppercase text-xl md:flex-row md:item-center items-center justify-center space-y-8 md:flex md:space-x-4 md:space-y-0">
                             <Link to="/" className=""><h3 className="text-cyan-900 font-bold uppercase px-5 hover:underline underline-offset-8">home</h3></Link>
                             <Link to="/About"  className=""><h3 className="text-cyan-900 font-bold px-5 uppercase hover:underline underline-offset-8">about the project</h3></Link>             
-                            <a href='http://localhost:3000/#modelUnits' className="text-cyan-900 font-bold px-5 uppercase hover:underline underline-offset-8">Model Units</a>
-                            <a href='#modelUnits' className="text-cyan-900 font-bold px-5 uppercase hover:underline underline-offset-8">Image Gallery</a>
+                            <a href='#modelUnits' className="text-cyan-900 font-bold px-5 uppercase hover:underline underline-offset-8">Model Units</a>
+                            <a href='#gallery' className="text-cyan-900 font-bold px-5 uppercase hover:underline underline-offset-8">Image Gallery</a>
                         </ul>
                     </div>
                 </div>
