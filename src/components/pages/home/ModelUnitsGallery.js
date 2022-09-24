@@ -58,7 +58,7 @@ function ModelUnitsGallery() {
     <div className='flex flex-col grid grid-cols-4 gap-5 m-2 mt-5 border-0.5'>
 
         <div className='col-span-4 flex justify-center md:my-10 md:mt:10 border p-2 drop-shadow-lg'>
-            <h1 className='col-span-4 text-center text-cyan-900 font-black text-3xl md:text-5xl uppercase tracking-normal px-7 md:px-14'>model units</h1>
+            <h1 className='col-span-4 text-center text-cyan-900 font-black text-3xl md:text-5xl uppercase tracking-normal px-7 md:px-14' id='modelUnits'>model units</h1>
         </div>
 
         <div className='col-span-4 md:col-span-2 flex flex-col justify-center items-center md:mt-5'>
