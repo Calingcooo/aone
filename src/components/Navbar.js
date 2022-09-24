@@ -6,13 +6,13 @@ function Navbar ()  {
   const [ navbar, setNavbar ] = useState(false);
 
   return (
-    <main className='fixed w-full backdrop-blur-sm bg-cover bg-center drop-shadow-md z-10'>
+    <main className='block w-full md:fixed md:backdrop-blur-sm bg-cover bg-center drop-shadow-md z-10'>
         <nav className="container-fluid p-0 mx-3.5">
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex">
               <div>
                     <div className="flex items-center justify-between py-1 md:py-3 md:block">
                         <a href="/">
-                            <img src={LOGO} className="h-20 md:h-20" alt="LOGO" />
+                            <img src={LOGO} className="h-14 md:h-20" alt="LOGO" />
                         </a>
                         <div className="md:hidden">
                             <button

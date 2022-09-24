@@ -23,10 +23,6 @@
     font-family: Poppins;
 }
 
-p {
-    font-family: Frutiger;
-}
-
 /* MODEL UNIT CAROUSEL */
 .fade-anim img {
     animation: fadeAnim 2s ease-out;

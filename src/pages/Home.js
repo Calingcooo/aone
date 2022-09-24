@@ -4,8 +4,8 @@ import videoBG from '../assets/videos/aoneVideoBG.mp4'
 
 //Components
 import Navbar from '../components/Navbar'
-import ModelUnitsGallery from '../components/ModelUnitsGallery'
-import StudioOneGallery from '../components/StudioOneGallery'
+import ModelUnitsGallery from '../components/pages/home/ModelUnitsGallery'
+import StudioOneGallery from '../components/pages/home/StudioOneGallery'
 import Footer from '../components/Footer'
 
 

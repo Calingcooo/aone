@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 //1 Bedroom Studio Images
-import studioOne from '../data/Studio1BR'
+import studioOne from '../../../data/Studio1BR'
 
 function StudioOneGallery() {
 
