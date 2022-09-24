@@ -6,7 +6,7 @@ function Navbar ()  {
   const [ navbar, setNavbar ] = useState(false);
 
   return (
-    <main className='block w-full fixed bg-white md:bg-transparent  md:backdrop-blur-sm bg-cover bg-center drop-shadow-md z-10'>
+    <main className='block w-full md:fixed bg-white md:bg-transparent  md:backdrop-blur-sm bg-cover bg-center drop-shadow-md z-10'>
         <nav className="container-fluid p-0 mx-3.5">
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex">
               <div>

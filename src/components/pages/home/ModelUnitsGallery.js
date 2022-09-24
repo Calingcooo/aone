@@ -85,9 +85,7 @@ function ModelUnitsGallery() {
                     <button className='bg-white px-2 py-2' onClick={handleNext}>next</button>
                 </div>*/}
 
-    </div>
-        
-            
+    </div>        
   )
 }
 
