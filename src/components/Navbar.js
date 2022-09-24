@@ -61,8 +61,8 @@ function Navbar ()  {
                         <ul className="flex flex-col uppercase text-xl md:flex-row md:item-center items-center justify-center space-y-8 md:flex md:space-x-4 md:space-y-0">
                             <Link to="/" className=""><h3 className="text-cyan-900 font-bold uppercase px-5 hover:underline underline-offset-8">home</h3></Link>
                             <Link to="/About"  className=""><h3 className="text-cyan-900 font-bold px-5 uppercase hover:underline underline-offset-8">about the project</h3></Link>             
-                            <a href='http://localhost:3000/#modelUnits' className="text-cyan-900 font-bold px-5 uppercase hover:underline underline-offset-8">Model Units</a>
-                            <a href='#modelUnits' className="text-cyan-900 font-bold px-5 uppercase hover:underline underline-offset-8">Image Gallery</a>
+                            <a href='#modelUnits' className="text-cyan-900 font-bold px-5 uppercase hover:underline underline-offset-8">Model Units</a>
+                            <a href='#gallery' className="text-cyan-900 font-bold px-5 uppercase hover:underline underline-offset-8">Image Gallery</a>
                         </ul>
                     </div>
                 </div>

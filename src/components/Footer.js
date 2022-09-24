@@ -41,10 +41,10 @@ function Footer() {
 
                     <div>
                         <h3 className="text-lg text-gray-400 uppercase">navigation</h3>
-                        <a href="#" className="block mt-2 text-sm text-gray-600 hover:underline">About the Project</a>
-                        <a href="#" className="block mt-2 text-sm text-gray-600 hover:underline">Model Units</a>
-                        <a href="#" className="block mt-2 text-sm text-gray-600  hover:underline">Gallery</a>
-                        <a href="#" className="block mt-2 text-sm text-gray-600  hover:underline">Location</a>
+                        <Link to='/About' ><a className="block mt-2 text-sm text-gray-600 hover:underline">About the Project</a></Link>
+                        <a href="#modelUnits" className="block mt-2 text-sm text-gray-600 hover:underline">Model Units</a>
+                        <a href="#gallery" className="block mt-2 text-sm text-gray-600  hover:underline">Gallery</a>
+                        <Link to='/About' ><a className="block mt-2 text-sm text-gray-600 hover:underline">Location</a></Link>
                     </div>
 
                     <div>

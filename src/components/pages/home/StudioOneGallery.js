@@ -17,7 +17,7 @@ function StudioOneGallery() {
     <div className='block m-5 h-full'>
 
         <div className='col-span-4 flex justify-center border md:my-10 md:mt:10'>
-            <h1 className='col-span-4 text-center text-cyan-900 font-black text-3xl md:text-5xl uppercase tracking-normal px-7 md:px-14'>image gallery</h1>
+            <h1 className='col-span-4 text-center text-cyan-900 font-black text-3xl md:text-5xl uppercase tracking-normal px-7 md:px-14' id='gallery'>image gallery</h1>
         </div>
 
         <div className='col-span-4 flex justify-center md:my-10 mt-20 md:mt-40'>
