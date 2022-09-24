@@ -10,13 +10,13 @@ import BackToTop from '../components/BackToTop'
 import { TabTitle } from '../utils/GeneralFunctions'
 
 function About() {
-  TabTitle('About the project - AONE');
+  TabTitle('AOne - About the Project');
   
   return (
     <div className='overflow-hidden'>
       <Navbar />
-        <BackToTop />
         <AboutSection />
+        <BackToTop />
       <Footer />
     </div>
   )

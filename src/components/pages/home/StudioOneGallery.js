@@ -5,25 +5,35 @@ import studioOne from '../../../data/Studio1BR'
 
 function StudioOneGallery() {
 
-    const [ sliderData, setSliderData ] = useState(studioOne[0])
+    const [ selectedImage, setSelectedImage ] = useState(studioOne[0])
+
 
     const handleClick = (index) => {
         console.log(index)
         const slider = studioOne[index]
-        setSliderData(slider)
+        setSelectedImage(slider)
     }
   return (
     <div className='block m-5 h-full'>
 
-        <div className=''>
-            <img src={sliderData.image} className='aspect-w-16 aspect-h-16 md:w-full md:h-[600px]' alt='IMAGE SLIDER'/>
+        <div className='col-span-4 flex justify-center border md:my-10 md:mt:10'>
+            <h1 className='col-span-4 text-center text-cyan-900 font-black text-3xl md:text-5xl uppercase tracking-normal px-7 md:px-14'>image gallery</h1>
         </div>
 
-        <div className='flex flex-row justify-around items-center border'>
+        <div className='col-span-4 flex justify-center md:my-10 mt-20 md:mt-40'>
+            <h1 className='col-span-4 text-center text-cyan-900 font-black text-lg md:text-5xl uppercase tracking-normal px-7 md:px-14'>one(1) bedroom corner unit (t2 & t3)</h1>
+        </div>
+
+        <div className='drop-shadow-xl'>
+            <img src={selectedImage.image} className='w-full h-full border rounded-lg' alt='IMAGE SLIDER'/>
+        </div>
+
+        <div className='flex flex-row justify-center items-center mt-5'>
             {studioOne.map((img, i) => (
-                <div key={img.id} className='h-full m-1 md:m-5 md:h-40'>
-                    <img src={img.image} alt={img.image} className='h-14 w-full md:h-full' 
-                       onClick={() => handleClick(i)} />
+                <div key={img.id} className='m-1 md:m-5 md:h-full'>
+                    <img src={img.image} alt={img.image} className='drop-shadow-lg w-full border rounded-lg' 
+                       onClick={() => handleClick(i)} 
+                       style={img === selectedImage ? { border: "2px solid black"} : {}}/>
                 </div>
             ))}
         </div>

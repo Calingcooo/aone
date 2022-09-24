@@ -25,7 +25,7 @@
 
 /* MODEL UNIT CAROUSEL */
 .fade-anim img {
-    animation: fadeAnim 2s ease-out;
+    animation: fadeAnim 1s ease-out;
 }
 
 @keyframes fadeAnim {

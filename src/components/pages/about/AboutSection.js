@@ -52,7 +52,7 @@ const AboutSection = () => {
         {/* FIRST SECTION */}
         <div className='grid grid-col-4 md:gap-3 flex justify-center mt-5 md:pb-5'>
 
-            <div className='col-span-4 flex justify-center mt-20'>
+            <div className='col-span-4 flex justify-center md:mt-10'>
                 <h1 className='col-span-4 text-center text-cyan-900 font-black text-3xl md:text-5xl uppercase pb-5 tracking-normal px-7 md:px-14'>experience sky-high elevated living</h1>
             </div>
 
@@ -75,7 +75,7 @@ const AboutSection = () => {
         {/* SECOND SECTION */}
         <div className='grid grid-col-4 md:gap-3 flex justify-center mt-5 md:pb-5'>
 
-            <div className='col-span-4 flex justify-center mt-20'>
+            <div className='col-span-4 flex justify-center md:mt-10'>
                 <h1 className='col-span-4 text-center text-cyan-900 font-black text-3xl md:text-5xl uppercase pb-5 tracking-normal px-7 md:px-14'> sublime opulence</h1>
             </div>
 
@@ -99,7 +99,7 @@ const AboutSection = () => {
         {/* THIRD SECTION */}
         <div className='grid grid-col-4 md:gap-3 flex justify-center mt-5 md:pb-5'>
 
-            <div className='col-span-4 flex justify-center mt-20'>
+            <div className='col-span-4 flex justify-center md:mt-10'>
                 <h1 className='col-span-4 text-center text-cyan-900 font-black text-3xl md:text-5xl uppercase pb-5 tracking-normal px-7 md:px-14'>first-class luxury made a reality</h1>
             </div>
 
@@ -122,7 +122,7 @@ const AboutSection = () => {
         {/* FOURTH SECTION */}
         <div className='grid grid-col-4 md:gap-3 flex justify-center mt-5 md:pb-5'>
 
-            <div className='col-span-4 flex justify-center mt-20'>
+            <div className='col-span-4 flex justify-center md:mt-10'>
                 <h1 className='col-span-4 text-center text-cyan-900 font-black text-3xl md:text-5xl uppercase pb-5 tracking-normal px-7 md:px-14'>setting the stage for transit development</h1>
             </div>
 
@@ -148,7 +148,7 @@ const AboutSection = () => {
         {/* FIFTH SECTION */}
         <div className='grid grid-col-4 md:gap-3 flex justify-center mt-5 md:pb-5'>
 
-            <div className='col-span-4 flex justify-center mt-20'>
+            <div className='col-span-4 flex justify-center md:mt-10'>
                 <h1 className='col-span-4 text-center text-cyan-900 font-black text-3xl md:text-5xl uppercase pb-5 tracking-normal px-7 md:px-14'>Location</h1>
             </div>
 
@@ -186,13 +186,9 @@ const AboutSection = () => {
                 kilometer, while Ayala Triangle can be reached in 1.2 kiometers.
             </h1>
         </div>
-        <hr />
 
     </div>
-        
-
-
-    </div>
+</div>
 
   )
 }
