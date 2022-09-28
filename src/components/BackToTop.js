@@ -20,7 +20,7 @@ const BackToTop = () => {
         })
     }
   return (
-    <div className='fixed bottom-0 left-1/2 z-50'>
+    <div className='fixed bottom-0 left-1/2 z-10'>
         {BackToTop &&  (
             <div className='arrow drop-shadow-2xl' onClick={scrollUp}>
                 <span></span>
