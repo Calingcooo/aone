@@ -1,27 +1,29 @@
 @font-face {
-    font-family: Poppins;
-    src: url(./assets/fonts/Poppins-Regular.ttf);
+    font-family: Asket;
+    src: url(./assets/fonts/Glen-Jan-AsketNarrow-Light.otf);
 }
 
 @font-face {
-    font-family: Frutiger;
-    font-style: normal;
-    font-weight: normal;
-    src: url(./assets/fonts/Frutiger.woff) format('woff');
-    }
-    
-
-    @font-face {
-    font-family: Frutiger Bold;
-    font-style: normal;
-    font-weight: normal;
-    src: url(./assets/fonts/Frutiger_bold.woff) format('woff');
+    font-family: Andis;
+    src: url(./assets/fonts/JAM-Type-Design-Andis-Regular.otf);
 }
+
 
 
 * {
-    font-family: Poppins;
+    font-family: Andis;
 }
+
+#nav {
+    font-family: Asket;
+}
+
+#next, #prev, #social {
+    color: #bba14f;
+}
+
+
+
 
 /* MODEL UNIT CAROUSEL */
 .fade-anim img {

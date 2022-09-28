@@ -26,7 +26,6 @@ const BackToTop = () => {
                 <span></span>
                 <span></span>
                 <span></span>
-                
             </div>
         )}
     </div>

@@ -11,7 +11,6 @@ import Sublime from '../../../assets/images/AboutProject/sublimeopulence.png'
 import FirstClass from '../../../assets/images/AboutProject/first-class.png'
 import Transit from '../../../assets/images/AboutProject/transit-development.png'
 import Map from '../../../assets/images/AboutProject/map.png'
-import HeroBG from '../../../assets/images/roofdeck.jpg'
 
 
 const AboutSection = () => {
@@ -22,10 +21,6 @@ const AboutSection = () => {
 
   return (
     <div  className='antialiased'> 
-        <div className ='h-screen w-screen bg-no-repeat bg-cover bg-center bg-fixed drop-shadow-2xl' style={{
-            backgroundImage: `url(${HeroBG})`
-        }}>
-        </div>
 
     <div className='px-5 drop-shadow-2xl'>
         {/* ABOUT THE PROJECT SECTION */}
@@ -53,18 +48,18 @@ const AboutSection = () => {
         <div className='grid grid-col-4 md:gap-3 flex justify-center mt-5 md:pb-5'>
 
             <div className='col-span-4 flex justify-center md:mt-10'>
-                <h1 className='col-span-4 text-center text-cyan-900 font-black text-3xl md:text-5xl uppercase pb-5 tracking-normal px-7 md:px-14'>experience sky-high elevated living</h1>
+                <h1 className='col-span-4 text-center text-cyan-900 font-black text-3xl md:text-5xl uppercase pb-5 tracking-normal px-7 md:px-14'>first-class luxury made a reality</h1>
             </div>
 
             <div className='col-span-4 md:col-span-2 p-5'>
-                <img src={SkyHigh} alt='Sky-High' className='order-2 rounded-lg drop-shadow-lg' data-aos="fade-right"/>
+                <img src={FirstClass} alt='Sky-High' className='order-2 rounded-lg drop-shadow-lg' data-aos="fade-right"/>
             </div>
 
             <div className='flex flex-col justify-center p-5 col-span-4 md:col-span-2'>
                 
                 <p className='leading-relaxed text-left text-sm md:text-2xl indent-8 tracking-normal whitespace-normal p-2'>
-                    Whatever mood or mode you are in—work, play, or relaxation, AONE’s size, excellent location, and tailored amenities help you make the most of it. 
-                    Discerning sophisticates will feel right at home in AONE, the modern yet palatial feel of the myriad of designs present in one structure evokes an air of splendor few other luxury residences have achieved. 
+                    Customization is the foundation of splendor. From the architecture to the amenities, every aspect of the good life at AONE covers all the basics and then some, to accomodate each resident’s unique lifestyle. 
+                    Extravagance and customization, imply meticulous planning and creativity. But the need to imagine one’s ideal, top-tier city home is no longer a necessary-that home has arrived.
                 </p>
             </div>
         </div>
@@ -100,29 +95,6 @@ const AboutSection = () => {
         <div className='grid grid-col-4 md:gap-3 flex justify-center mt-5 md:pb-5'>
 
             <div className='col-span-4 flex justify-center md:mt-10'>
-                <h1 className='col-span-4 text-center text-cyan-900 font-black text-3xl md:text-5xl uppercase pb-5 tracking-normal px-7 md:px-14'>first-class luxury made a reality</h1>
-            </div>
-
-            <div className='col-span-4 md:col-span-2 p-5'>
-                <img src={FirstClass} alt='Sky-High' className='order-2 rounded-lg drop-shadow-lg' data-aos="fade-right"/>
-            </div>
-
-            <div className='flex flex-col justify-center p-5 col-span-4 md:col-span-2'>
-                
-                <p className='leading-relaxed text-left text-sm md:text-2xl indent-8 tracking-normal whitespace-normal p-2'>
-                    Customization is the foundation of splendor. From the architecture to the amenities, every aspect of the good life at AONE covers all the basics and then some, to accomodate each resident’s unique lifestyle. 
-                    Extravagance and customization, imply meticulous planning and creativity. But the need to imagine one’s ideal, top-tier city home is no longer a necessary-that home has arrived.
-                </p>
-            </div>
-        </div>
-        {/* END OF THIRD SECTION */}
-
-        <hr />
-
-        {/* FOURTH SECTION */}
-        <div className='grid grid-col-4 md:gap-3 flex justify-center mt-5 md:pb-5'>
-
-            <div className='col-span-4 flex justify-center md:mt-10'>
                 <h1 className='col-span-4 text-center text-cyan-900 font-black text-3xl md:text-5xl uppercase pb-5 tracking-normal px-7 md:px-14'>setting the stage for transit development</h1>
             </div>
 
@@ -141,12 +113,12 @@ const AboutSection = () => {
                 </p>
             </div>
         </div>
-        {/* END OF FOURTH SECTION */}
+        {/* END OF THIRD SECTION */}
 
         <hr />
 
-        {/* FIFTH SECTION */}
-        <div className='grid grid-col-4 md:gap-3 flex justify-center mt-5 md:pb-5'>
+        {/* FOURTH SECTION */}
+        <div className='grid grid-col-4 md:gap-3 flex justify-center mt-5 md:pb-5' id='location'>
 
             <div className='col-span-4 flex justify-center md:mt-10'>
                 <h1 className='col-span-4 text-center text-cyan-900 font-black text-3xl md:text-5xl uppercase pb-5 tracking-normal px-7 md:px-14'>Location</h1>
@@ -177,7 +149,7 @@ const AboutSection = () => {
 
             </div>
         </div>
-        {/* END OF FIFTH SECTION */}
+        {/* END OF FOURTH SECTION */}
 
         <hr className='mt-20'/>
         <div className='flex justify-center p-10'>

@@ -1,19 +1,15 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import LOGO from '../assets/images/LOGO.png'
+import LOGO from '../assets/images/logo.png'
 
 function Navbar ()  {
   const [ navbar, setNavbar ] = useState(false);
 
   return (
-    <main className='block w-full md:fixed bg-white md:bg-transparent  md:backdrop-blur-sm bg-cover bg-center drop-shadow-md z-10'>
-        <nav className="container-fluid p-0 mx-3.5">
-            <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex">
+        <nav className="subpixel-antialiased w-full d p-0 block sticky top-0 bg-white z-50" id='navbar'>
+            <div className="justify-end w-full md:items-center md:flex">
               <div>
-                    <div className="flex items-center justify-between py-1 md:py-3 md:block">
-                        <a href="/">
-                            <img src={LOGO} className="h-14 md:h-20" alt="LOGO" />
-                        </a>
+                    <div className="flex items-center justify-end md:block">
                         <div className="md:hidden">
                             <button
                                 className="p-2 text-slate-900 rounded-md outline-none focus:border-gray-700 focus:border"
@@ -58,17 +54,17 @@ function Navbar ()  {
                             navbar ? "block" : "hidden"
                         }`}
                     >
-                        <ul className="flex flex-col uppercase text-xl md:flex-row md:item-center items-center justify-center space-y-8 md:flex md:space-x-4 md:space-y-0">
-                            <Link to="/" className=""><h3 className="text-cyan-900 font-bold uppercase px-5 hover:underline underline-offset-8">home</h3></Link>
-                            <Link to="/About"  className=""><h3 className="text-cyan-900 font-bold px-5 uppercase hover:underline underline-offset-8">about the project</h3></Link>             
-                            <a href='#modelUnits' className="text-cyan-900 font-bold px-5 uppercase hover:underline underline-offset-8">Model Units</a>
-                            <a href='#gallery' className="text-cyan-900 font-bold px-5 uppercase hover:underline underline-offset-8">Image Gallery</a>
+                        <ul className="flex flex-col tracking-wide text-lg md:flex-row md:item-center items-center justify-center space-y-8 md:flex md:space-x-4 md:space-y-0">
+                            <Link to='/'><a href='https://test.aone.com.ph/#gallery' className="text-black hover:text-gray-900 font-extrabold p-3">Home</a></Link>
+                            <a href='https://test.aone.com.ph/#about' className="text-zinc-900 hover:text-gray-900 font-extrabold p-3">About Us</a>
+                            <a href='https://test.aone.com.ph/#model' className="text-zinc-900 hover:text-gray-900 font-extrabold p-3">Our Model Unit</a>
+                            <a href='https://test.aone.com.ph/#gallery' className="text-zinc-900 hover:text-gray-900 font-extrabold p-3">Gallery</a>
+                            <a href='https://test.aone.com.ph/#contact' className="text-zinc-700 hover:text-gray-900 font-extrabold p-3">Contact</a>
                         </ul>
                     </div>
                 </div>
             </div>
       </nav>
-      </main>
     
 
   )
