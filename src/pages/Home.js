@@ -16,14 +16,14 @@ import SecondSection from '../components/pages/home/SecondSection'
 function Home() {
 
   return (
-    <>
+    <div className='bg-beige'>
       <Navbar />
       <Hero />
       <SecondSection />
       <ModelUnitsGallery />
       <Gallery />
       <Footer />
-    </>
+    </div>
   )
 }
 

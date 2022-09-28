@@ -1,87 +1,57 @@
-import React, { Component } from 'react'
-import '../../../index.css'
-import Slider from 'react-slick';
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
-
-
-//gallery images
-import bg from '../../../assets/images/facade2.jpg'
+import React, { useState } from 'react'
 import gallery from '../../../data/ImageGallery'
+import bg from '../../../assets/images/facade2.jpg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPlay } from '@fortawesome/free-solid-svg-icons'
+
+const Gallery = () => {
+    const [ sliderData, setSliderData ] = useState(gallery[0])
+
+    const handleClick = (index) => {
+        console.log(index)
+        const slider = gallery[index]
+        setSliderData(slider)
+    }
+
+    const slideLeft = () => {
+        var slider = document.getElementById('slider');
+        slider.scrollLeft = slider.scrollLeft - 500;
+    }
+
+    const slideRight = () => {
+        var slider = document.getElementById('slider');
+        slider.scrollLeft = slider.scrollLeft + 500;
+    }
 
 
-
-export default class Gallery extends Component {
-
-    constructor(props) {
-        super(props);
-        this.state = {
-          nav1: null,
-          nav2: null
-        };
-      }
-    
-      componentDidMount() {
-        this.setState({
-          nav1: this.slider1,
-          nav2: this.slider2
-        });
-      }
-
-render() {
   return (
-
-    <div className='overflow-hidden relative bg-fixed bg-cover bg-no-repeat h-full w-full' id='gallery'
+    <div className='overflow-hidden relative bg-fixed bg-cover bg-no-repeat w-full' id='gallery'
     style={{
         backgroundImage: `url(${bg})`
-    }}>
-        <h1 className='text-yellow text-7xl text-center font-black absolute w-full z-20'>Gallery</h1>
-        
-        <div className='absolute inset-0 bg-gray-900 bg-opacity-75'></div>
-               
-        <Slider
-            asNavFor={this.state.nav2}
-            ref={slider => (this.slider1 = slider)}
-        >
-        
-                
-            {gallery.map((img) => (
-                <div className='flex justify-center items-center p-5 pt-40' key={img.id}>                 
-                    <img src={img.image} alt={img.image} className=' h-2/6 w-full rounded-xl drop-shadow-2xl'/>
+    }}>      <div className='absolute inset-0 bg-gray-900 bg-opacity-75'></div>
+            
+            <div className='flex flex-col w-full relative justify-center items-center'>
+                <div>
+                    <h1 className='text-yellow text-7xl text-center font-black w-full py-5'>Gallery</h1>
                 </div>
-            ))}
-        </Slider>
-        <Slider
-            asNavFor={this.state.nav1}
-            ref={slider => (this.slider2 = slider)}
-            slidesToShow={5}
-            swipeToSlide={true}
-            focusOnSelect={true}
-        >
-            {gallery.map((img) => (
-                <div className='p-5' key={img.id}>                 
-                    <img src={img.image} alt={img.image} className='h-[50px] md:h-[200px] w-full rounded-xl drop-shadow-xl'/>
-                 </div>
-            ))}
-        </Slider>
+                <div className='flex justify-center mb-5'>
+                    <img src={sliderData.image} alt='Image Selected'  className='h-full w-4/5 shadow-drop-lg rounded-xl'/>
+                </div>
+                <div className='relative flex items-center'>
+                    <FontAwesomeIcon icon={faPlay} className='rotate-180 cursor-pointer h-10 md:h-16 opacity-75 hover:opacity-100' id='arrow' 
+                        onClick={slideLeft}/>
+                    <div className='flex flex-row w-full h-full overflow-x-scroll scroll whitespace-no-wrap scroll-smooth scrollbar-hide' id='slider'>
+                        {gallery.map((img, i) => (
+                            <img src={img.image} key={img.id} alt={img.image} className='h-[100px] w-[300px] mb-5 cursor-pointer rounded-xl p-2 drop-shadow-xl hover:scale-105 ease-in-out duration-300'
+                                onClick={() => handleClick(i)}/>
+                        ))}
+                </div>
+                    <FontAwesomeIcon icon={faPlay} className='cursor-pointer h-10 md:h-16 opacity-75 hover:opacity-100' id='arrow' 
+                        onClick={slideRight}/>
+            </div>
+        </div>
     </div>
   )
-}}
+}
 
-
-
-{/*<div className='w-full relative'>
-        <div className='absolute inset-0 bg-gray-900 bg-opacity-50'></div>
-        <div className='absolute flex flex-col justify-evenly h-full ml-5 md:ml-10 p-5'>
-            <div className='flex flex-row items-center'>
-                <img src={makati} alt='IMAGE' className='h-10 w-10 md:h-16 md:w-16'/>
-                <div>
-                    <h1 className='text-white text-xxs md:text-sm'>MAKATI CITY SUBWAY INC. A WHOLLY-OWNED SUBSIDIARY OF </h1>
-                    <h1 className='text-white text-xxs md:text-sm'>PHILIPPINE INFRADEV HOLDINGS INC.</h1>
-                </div>
-            </div>
-            <img src={logo} alt='LOGO' className='h-20 w-1/2 md:h-40 md:w-11/12'/>
-            <button className='text-xxs md:text-xl tracking-wide text-white font-black bg-yellow uppercase w-1/2 md:w-2/4 py-1 md:py-3 md:px-5'>Learn More</button>
-        </div>
-        <img src={heroBG} alt='HERO' className='bg-black'/>
-    </div>*/}
+export default Gallery

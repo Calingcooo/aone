@@ -6,7 +6,7 @@ function Navbar ()  {
   const [ navbar, setNavbar ] = useState(false);
 
   return (
-        <nav className="subpixel-antialiased w-full d p-0 block sticky top-0 bg-white z-50" id='navbar'>
+        <nav className="subpixel-antialiased w-full d p-0 block sticky top-0 bg-white z-50 drop-shadow-lg" id='navbar'>
             <div className="justify-end w-full md:items-center md:flex">
               <div>
                     <div className="flex items-center justify-end md:block">

@@ -6,7 +6,7 @@ import { faFacebook, faTwitter, faInstagram } from '@fortawesome/free-brands-svg
 function Footer() {
   return (
 
-    <footer className="grid grid-cols-4 bg-white p-10">
+    <footer className="grid grid-cols-4 bg-white p-10" id='contact'>
             <div className='col-span-2'>
                 <h1 className='text-black font-black text-xl md:text-5xl pb-5'>Contact Us</h1>
                 <div className='flex flex-row items-center mb-3'>

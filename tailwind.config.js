@@ -8,7 +8,8 @@ module.exports = {
     extend: {
       colors: {
         'yellow': '#bba14f',
-        'light-yellow': '#FFFFCC'
+        'light-yellow': '#FFFFCC',
+        'beige': '#f4f1ec'
       },
       fontSize: {
         'xxs': '8px',
@@ -17,6 +18,6 @@ module.exports = {
     },
   },
   plugins: [
-    require('flowbite/plugin')
+    require('tailwind-scrollbar-hide')
   ],
 }
