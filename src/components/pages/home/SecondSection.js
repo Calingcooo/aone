@@ -8,9 +8,9 @@ const SecondSection = () => {
             <h1 className='text-xs md:text-5xl font-black'>Experience sky-high elevated living that sets the stage for a transit development</h1>
             <p className='text-3xs md:text-2xl md:leading-normal mt-1 md:mt-5'>
                 Whatever mood or mode you are in—work, play, or relaxation, 
-                AONE’s size, excellent location, and tailored amenities help 
+                AOne’s size, excellent location, and tailored amenities help 
                 you make the most of it. Discerning sophisticates will feel right at home
-                in AONE, the modern yet palatial feel of the myriad of designs present in 
+                in AOne, the modern yet palatial feel of the myriad of designs present in 
                 one structure evokes an air of splendor few other luxury residences 
                 have achieved.
             </p>
