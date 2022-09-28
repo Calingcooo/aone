@@ -5,7 +5,6 @@ import img4 from '../assets/images/ImageGallery/img4.webp'
 import img5 from '../assets/images/ImageGallery/img5.webp'
 import img6 from '../assets/images/ImageGallery/img6.webp'
 import img7 from '../assets/images/ImageGallery/img7.webp'
-import img9 from '../assets/images/ImageGallery/img9.webp'
 import img10 from '../assets/images/ImageGallery/img10.webp'
 import img11 from '../assets/images/ImageGallery/img11.webp'
 import img12 from '../assets/images/ImageGallery/img12.webp'
@@ -46,10 +45,6 @@ const Gallery = [
     {
       id: 7,
       image: img7,
-    },
-    {
-      id: 9,
-      image: img9,
     },
     {
       id: 10,
