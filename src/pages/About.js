@@ -13,7 +13,7 @@ function About() {
   TabTitle('AOne - About the Project');
   
   return (
-    <div className='overflow-hidden'>
+    <div className='overflow-hidden relative'>
       <Navbar />
         <AboutSection />
         <BackToTop />

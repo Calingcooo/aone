@@ -52,7 +52,7 @@ function ModelUnitsGallery() {
 
 
   return (
-    <div className='grid grid-cols-5 md:mt-40 p-5 relative overflow-hidden'>
+    <div className='grid grid-cols-5 md:mt-40 p-5 relative overflow-hidden' id='model'>
         <div className='col-span-1'></div>
         <div className='col-span-4 text-right'>
             <h1 className='text-xs md:text-5xl font-black'>Our Model Units</h1>

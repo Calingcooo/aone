@@ -3,7 +3,7 @@ import video from '../../../assets/videos/aoneVideoBG.mp4'
 
 const SecondSection = () => {
   return (
-    <div className='grid grid-cols-6 gap-4 mt-10 md:mt-20 px-5'>
+    <div className='grid grid-cols-6 gap-4 mt-10 md:mt-20 px-5' id='about'>
         <div className='col-span-3'>
             <h1 className='text-xs md:text-5xl font-black'>Experience sky-high elevated living that sets the stage for a transit development</h1>
             <p className='text-3xs md:text-2xl md:leading-normal mt-1 md:mt-5'>
