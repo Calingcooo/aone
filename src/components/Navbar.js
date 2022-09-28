@@ -5,7 +5,7 @@ function Navbar ()  {
   const [ navbar, setNavbar ] = useState(false);
 
     return (
-        <nav className='subpixel-antialiased d p-0 fixed w-full bg-white z-50 drop-shadow-lg' id='navbar'>
+        <nav className='subpixel-antialiased p-0 fixed top-0 w-full bg-white z-50 drop-shadow-lg' id='navbar'>
               <div className="justify-end w-full md:items-center md:flex">
                 <div>
                       <div className="flex items-center justify-end md:block">
