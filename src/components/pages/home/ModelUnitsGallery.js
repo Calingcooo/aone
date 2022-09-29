@@ -79,9 +79,9 @@ function ModelUnitsGallery() {
                 ))}
             </Slider>
             <div className='col-span-5 flex justify-between items-center w-full absolute top-1/4 2xl:top-50 md:top-1/3'> 
-                    <FontAwesomeIcon icon={faPlay} className='rotate-180 cursor-pointer h-10 2xl:h-80 md:h-16 hover:opacity-50' id='prev'
+                    <FontAwesomeIcon icon={faPlay} className='rotate-180 cursor-pointer h-10 lg:h-20 2xl:h-40 md:h-16 hover:opacity-50' id='prev'
                         onClick={() => sliderRef.current.slickPrev()}/>
-                    <FontAwesomeIcon icon={faPlay} className='cursor-pointer h-10 md:h-16 2xl:h-80 hover:opacity-50' id='next'
+                    <FontAwesomeIcon icon={faPlay} className='cursor-pointer h-10 md:h-16 lg:h-20 2xl:h-40 hover:opacity-50' id='next'
                         onClick={() => sliderRef.current.slickNext()}/>
             </div>
         </div>
