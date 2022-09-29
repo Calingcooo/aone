@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { useRef, useEffect } from 'react'
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
@@ -14,7 +14,10 @@ import units from '../../../data/ModelUnits'
 function ModelUnitsGallery() {
 
     const sliderRef = useRef(null);
-    console.log(sliderRef.current)
+
+    useEffect(() => {
+      console.log(sliderRef.current)
+    }, [])
 
     const settings = {
         className: "center",
@@ -71,14 +74,14 @@ function ModelUnitsGallery() {
             <Slider ref={sliderRef} {...settings}>
                 {units.map((img) => (
                     <div className='p-1 md:p-5' key={img.id}>                 
-                        <img src={img.image} alt={img.image} className='h-24 md:h-52 w-3/4 md:w-full bg-contain rounded-xl drop-shadow-xl'/>
+                        <img src={img.image} alt={img.image} className='h-24 md:h-52 2xl:h-[500px] w-3/4 md:w-full bg-contain rounded-xl drop-shadow-xl'/>
                     </div>
                 ))}
             </Slider>
-            <div className='col-span-5 flex justify-between items-center w-full absolute top-1/4 md:top-1/3'> 
-                    <FontAwesomeIcon icon={faPlay} className='rotate-180 cursor-pointer h-10 md:h-16 hover:opacity-50' id='prev'
+            <div className='col-span-5 flex justify-between items-center w-full absolute top-1/4 2xl:top-50 md:top-1/3'> 
+                    <FontAwesomeIcon icon={faPlay} className='rotate-180 cursor-pointer h-10 lg:h-20 2xl:h-40 md:h-16 hover:opacity-50' id='prev'
                         onClick={() => sliderRef.current.slickPrev()}/>
-                    <FontAwesomeIcon icon={faPlay} className='cursor-pointer h-10 md:h-16 hover:opacity-50' id='next'
+                    <FontAwesomeIcon icon={faPlay} className='cursor-pointer h-10 md:h-16 lg:h-20 2xl:h-40 hover:opacity-50' id='next'
                         onClick={() => sliderRef.current.slickNext()}/>
             </div>
         </div>
