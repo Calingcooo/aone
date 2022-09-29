@@ -23,7 +23,7 @@ const AboutSection = () => {
     <div  className='antialiased'> 
     <div className='grid-px-5 drop-shadow-2xl'>
         {/* ABOUT THE PROJECT SECTION */}
-        <div className='mt-10 md:p-20 grid grid-cols-4'>
+        <div className='flex mt-10 md:p-20 grid grid-cols-4'>
             <div className='col-span-4 p-5 md:col-span-2'>
                 <h1 className='text-center font-black text-cyan-900 tracking-wide md:tracking-widest p-5 uppercase text-4xl md:text-5xl'>about the project</h1>
                 <p className='indent-8 leading-relaxed text-left text-sm tracking-normal py-5 md:text-lg md:px-5'>
@@ -39,8 +39,8 @@ const AboutSection = () => {
                 </p>
             </div>
 
-            <div className='col-span-4 p-5 md:col-span-2 w-full flex items-center'>
-                <img src={Facade} alt='FACADE' className='h-full w-full rounded-lg drop-shadow-xl' data-aos="fade-left" />
+            <div className='col-span-4 p-5 md:col-span-2 h-full w-full flex justify-center items-center'>
+                <img src={Facade} alt='FACADE' className='max-h-[700px] rounded-lg drop-shadow-xl' data-aos="fade-left" />
             </div>
         </div>
         {/* END OF THE PROJECT SECTION */}

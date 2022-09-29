@@ -54,7 +54,7 @@ function Navbar ()  {
                           }`}
                       >
                           <ul className="flex flex-col tracking-wide text-lg md:flex-row md:item-center items-center justify-center space-y-8 md:flex md:space-x-4 md:space-y-0">
-                              <Link to='/'><a href='https://test.aone.com.ph/#gallery' className="text-black hover:text-gray-900 font-extrabold p-3">Home</a></Link>
+                              <Link to='/' className="text-black hover:text-gray-900 font-extrabold p-3">Home</Link>
                               <a href='https://test.aone.com.ph/#about' className="text-zinc-900 hover:text-gray-900 font-extrabold p-3">About Us</a>
                               <a href='https://test.aone.com.ph/#model' className="text-zinc-900 hover:text-gray-900 font-extrabold p-3">Our Model Unit</a>
                               <a href='https://test.aone.com.ph/#gallery' className="text-zinc-900 hover:text-gray-900 font-extrabold p-3">Gallery</a>
