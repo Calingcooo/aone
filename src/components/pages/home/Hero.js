@@ -1,8 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import heroBG from '../../../assets/images/building_facade.png'
-import makati from '../../../assets/images/makati.png'
-import logo from '../../../assets/images/logo.png'
 
 const Hero = () => {
   return (
