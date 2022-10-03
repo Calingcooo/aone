@@ -140,21 +140,14 @@ const AboutSection = () => {
 
                 <p className='leading-relaxed text-left text-sm md:text-lg tracking-normal whitespace-normal p-2'>
                     The project is situated 2.5 kilometers away from Makati City Hall and 1 kilometer away from Legaspi,
-                    which is home to a number of well-known pocket parks. 
+                    which is home to a number of well-known pocket parks. The Chinese embassy, which situated in Buendia Avenue, can be reached in 1 
+                    kilometer, while Ayala Triangle can be reached in 1.2 kiometers.
                 </p>
         
 
             </div>
         </div>
         {/* END OF FOURTH SECTION */}
-
-        <hr className='mt-20'/>
-        <div className='flex justify-center p-10'>
-            <h1 className='font-black text-center text-sm md:text-2xl pb-5 tracking-normal uppercase'>
-                The Chinese embassy, which situated in Buendia Avenue, can be reached in 1 
-                kilometer, while Ayala Triangle can be reached in 1.2 kiometers.
-            </h1>
-        </div>
         <hr />
 
     </div>
