@@ -6,11 +6,11 @@ import Aos from 'aos'
 import 'aos/dist/aos.css'
 
 //Images
-import Facade from '../../../assets/images/facade.png'
-import Sublime from '../../../assets/images/AboutProject/sublimeopulence.png'
-import FirstClass from '../../../assets/images/AboutProject/first-class.png'
-import Transit from '../../../assets/images/AboutProject/transit-development.png'
-import Map from '../../../assets/images/AboutProject/map.png'
+import Facade from '../../../assets/images/facade.webp'
+import Sublime from '../../../assets/images/AboutProject/sublimeopulence.webp'
+import FirstClass from '../../../assets/images/AboutProject/first-class.webp'
+import Transit from '../../../assets/images/AboutProject/transit-development.webp'
+import Map from '../../../assets/images/AboutProject/map.webp'
 
 
 const AboutSection = () => {
@@ -23,24 +23,17 @@ const AboutSection = () => {
     <div  className='antialiased'> 
     <div className='grid-px-5 drop-shadow-2xl'>
         {/* ABOUT THE PROJECT SECTION */}
-        <div className='flex mt-10 md:p-20 grid grid-cols-4'>
+        <div className='flex items-center mt-10 md:p-20 grid grid-cols-4'>
             <div className='col-span-4 p-5 md:col-span-2'>
                 <h1 className='text-center font-black text-cyan-900 tracking-wide md:tracking-widest p-5 uppercase text-4xl md:text-5xl'>about the project</h1>
                 <p className='indent-8 leading-relaxed text-left text-sm tracking-normal py-5 md:text-lg md:px-5'>
-                    Makati City Subway, a wholly-owned subsidiary of Philippine Infradev Inc., is developing the company's first infrastructure project: an intracity subway system in Makati City. At least eight (8) stations will be included in the 8-kilometer dual rail subway system.
-                </p>
-
-                <p className='indent-8 leading-relaxed text-left text-sm tracking-normal pb-5 md:text-lg md:px-5'>
-                    In addition with this, the company is developing a new estate that is not your typical township development in which the concept of Live-Work-Play is being offered to the market but rather we offer Connectivity, Community, Convenience, and Commerce. AOne Tower, which has a lot area of approximately 7,518 square meters, basically has almost everything to offer.
-                </p>
-
-                <p className='indent-8 leading-relaxed text-left text-sm tracking-normal md:text-lg md:px-5'>
-                    Located in Amorsolo Street, which runs parallel to Ayala Avenue. AOne goes above and beyond the essentials to cater to the distinctive way of life led by each individual resident. A luxurious lobby, office floors, podium and parking, residential floors, and an extravagant amenity deck with a view of Makati and Manila Bay in 360 degrees. This customization requires careful planning in addition to creative thinking. However, it is no longer necessary to imagine one's perfect apartment in a premier city because one's home has already been delivered.
-                </p>
+                Makati City Subway, Inc., a wholly-owned subsidiary of Philippine Infradev Holdings, Inc., is developing the company's first infrastructure project: an intracity subway system in Makati City. At least eight (😎 stations will be included in the 8-kilometer dual rail subway system.
+                Complementing the subway system are transit-oriented developments (TOD’s) to support the operation. The first TOD is the AOne tower with almost 250,000 sq.m floor area offering residential, office, and commercial units with amenities offering connectivity, convenience, commerce, and community.
+                Located on Amorsolo Street, which runs parallel to Ayala Avenue, AOne goes above and beyond the essentials to cater to the distinctive way of life led by each individual resident. A luxurious lobby, office floors, podium and parking, residential floors, and an extravagant amenity deck with a view of Makati City and Manila Bay in 360 degrees. This customization requires careful planning in addition to creative thinking. It is no longer necessary to imagine one's perfect apartment in a premier city because one's home has already been delivered.                </p>
             </div>
 
             <div className='col-span-4 p-5 md:col-span-2 h-full w-full flex justify-center items-center'>
-                <img src={Facade} alt='FACADE' className='max-h-[700px] rounded-lg drop-shadow-xl' data-aos="fade-left" />
+                <img src={Facade} alt='FACADE' className='max-h-[700px] min-h-[700px] rounded-lg drop-shadow-xl' data-aos="fade-left" />
             </div>
         </div>
         {/* END OF THE PROJECT SECTION */}

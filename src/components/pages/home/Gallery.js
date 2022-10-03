@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import gallery from '../../../data/ImageGallery'
-import bg from '../../../assets/images/facade2.jpg'
+import bg from '../../../assets/images/facade2.webp'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlay } from '@fortawesome/free-solid-svg-icons'
 
