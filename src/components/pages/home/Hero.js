@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import heroBG from '../../../assets/images/building_facade.png'
+import heroBG from '../../../assets/images/building_facade.webp'
 
 const Hero = () => {
   return (
