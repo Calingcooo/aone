@@ -27,7 +27,7 @@ const AboutSection = () => {
             <div className='col-span-4 p-5 md:col-span-2'>
                 <h1 className='text-center font-black text-cyan-900 tracking-wide md:tracking-widest p-5 uppercase text-4xl md:text-5xl'>about the project</h1>
                 <p className='indent-8 leading-relaxed text-left text-sm tracking-normal py-5 md:text-lg md:px-5'>
-                Makati City Subway, Inc., a wholly-owned subsidiary of Philippine Infradev Holdings, Inc., is developing the company's first infrastructure project: an intracity subway system in Makati City. At least eight (😎 stations will be included in the 8-kilometer dual rail subway system.
+                Makati City Subway, Inc., a wholly-owned subsidiary of Philippine Infradev Holdings, Inc., is developing the company's first infrastructure project: an intracity subway system in Makati City. At least eight stations will be included in the 8-kilometer dual rail subway system.
                 Complementing the subway system are transit-oriented developments (TOD’s) to support the operation. The first TOD is the AOne tower with almost 250,000 sq.m floor area offering residential, office, and commercial units with amenities offering connectivity, convenience, commerce, and community.
                 Located on Amorsolo Street, which runs parallel to Ayala Avenue, AOne goes above and beyond the essentials to cater to the distinctive way of life led by each individual resident. A luxurious lobby, office floors, podium and parking, residential floors, and an extravagant amenity deck with a view of Makati City and Manila Bay in 360 degrees. This customization requires careful planning in addition to creative thinking. It is no longer necessary to imagine one's perfect apartment in a premier city because one's home has already been delivered.                </p>
             </div>
@@ -140,21 +140,14 @@ const AboutSection = () => {
 
                 <p className='leading-relaxed text-left text-sm md:text-lg tracking-normal whitespace-normal p-2'>
                     The project is situated 2.5 kilometers away from Makati City Hall and 1 kilometer away from Legaspi,
-                    which is home to a number of well-known pocket parks. 
+                    which is home to a number of well-known pocket parks. The Chinese embassy, which situated in Buendia Avenue, can be reached in 1 
+                    kilometer, while Ayala Triangle can be reached in 1.2 kiometers.
                 </p>
         
 
             </div>
         </div>
         {/* END OF FOURTH SECTION */}
-
-        <hr className='mt-20'/>
-        <div className='flex justify-center p-10'>
-            <h1 className='font-black text-center text-sm md:text-2xl pb-5 tracking-normal uppercase'>
-                The Chinese embassy, which situated in Buendia Avenue, can be reached in 1 
-                kilometer, while Ayala Triangle can be reached in 1.2 kiometers.
-            </h1>
-        </div>
         <hr />
 
     </div>
