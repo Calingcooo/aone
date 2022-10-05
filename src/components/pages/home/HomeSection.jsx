@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 
 //COMPONENTS
 import MainLobbyGallery from './MainLobbyGallery'
-import KidsGallery from './KidsGallery'
-import CoWorkingGallery from './CoWorkingGallery'
+import NthFloorGallery from './NthFloorGallery'
+import RoofDeckGallery from './RoofDeckGallery'
 
 //VIDEO
 import video from '../../../assets/videos/aoneVideoBG.mp4'
@@ -145,15 +145,15 @@ const sliderRef = useRef(null);
                         </div>
                         <div className='flex flex-col justify-center items-center md:flex-row text-white my-5'>
                             <button className='px-5 py-2 mt-3 bg-yellow rounded-lg hover:scale-105 ease-in-out duration-300'
-                                onClick={() => setActive('MainGallery')}>Main Lobby, Fitness Zone and Spa</button>
+                                onClick={() => setActive('MainGallery')}>BUILDINGS MAIN LOBBY</button>
                             <button className='px-5 py-2 ml-5 mt-3 bg-yellow rounded-lg hover:scale-105 ease-in-out duration-300'
-                                onClick={() => setActive('CoWorkingGallery')}>CoWorking</button>
+                                onClick={() => setActive('NthFloorGallery')}>9TH FLOOR AMENITIES</button>
                             <button className='px-5 py-2 ml-5 mt-3 bg-yellow rounded-lg hover:scale-105 ease-in-out duration-300'
-                                onClick={() => setActive('KidsGallery')}>KidsPlayroom</button>
+                                onClick={() => setActive('RoofDeckGallery')}>ROOF DECK AMENITIES</button>
                         </div>
                         { active === 'MainGallery' && <MainLobbyGallery /> }
-                        { active === 'CoWorkingGallery' && <CoWorkingGallery /> }
-                        { active === 'KidsGallery' && <KidsGallery /> }
+                        { active === 'NthFloorGallery' && <NthFloorGallery /> }
+                        { active === 'RoofDeckGallery' && <RoofDeckGallery /> }
                     </div>
                 </div>
 
