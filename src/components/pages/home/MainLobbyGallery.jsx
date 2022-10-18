@@ -10,7 +10,6 @@ function MainLobbyGallery() {
     const [ sliderData, setSliderData ] = useState(MainLobby[0])
 
     const handleClick = (index) => {
-        console.log(index)
         const slider = MainLobby[index]
         setSliderData(slider)
     }

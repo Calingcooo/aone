@@ -33,10 +33,6 @@ const [ active, setActive ] = useState("MainGallery")
 //MODEL UNITS FUNCTIONS
 const sliderRef = useRef(null);
 
-    useEffect(() => {
-      console.log(sliderRef.current)
-    }, [])
-
     const settings = {
         arrows: false,
         className: "center",
