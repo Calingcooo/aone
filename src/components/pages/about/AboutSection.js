@@ -6,7 +6,6 @@ import Aos from 'aos'
 import 'aos/dist/aos.css'
 
 //Images
-import Facade from '../../../assets/images/facade.webp'
 import Sublime from '../../../assets/images/AboutProject/sublimeopulence.webp'
 import FirstClass from '../../../assets/images/AboutProject/first-class.webp'
 import Transit from '../../../assets/images/AboutProject/transit-development.webp'
@@ -33,7 +32,7 @@ const AboutSection = () => {
             </div>
 
             <div className='col-span-4 p-5 md:col-span-2 h-full w-full flex justify-center items-center'>
-                <img src={Facade} alt='FACADE' className='max-h-[700px] min-h-[700px] rounded-lg drop-shadow-xl' data-aos="fade-left" />
+                <img src='https://ik.imagekit.io/vah26qifw/facade_1LaYcmN97.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1666184232584' alt='FACADE' className='max-h-[700px] min-h-[700px] rounded-lg drop-shadow-xl' data-aos="fade-left" />
             </div>
         </div>
         {/* END OF THE PROJECT SECTION */}

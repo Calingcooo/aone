@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from 'react'
+import React, { useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
@@ -7,12 +7,7 @@ import MainLobbyGallery from './MainLobbyGallery'
 import NthFloorGallery from './NthFloorGallery'
 import RoofDeckGallery from './RoofDeckGallery'
 
-//VIDEO
-import video from '../../../assets/videos/aoneVideoBG.mp4'
-
 //IMAGES
-import heroBG from '../../../assets/images/building_facade.webp'       
-import bg from '../../../assets/images/facade2.webp'
 import units from '../../../data/ModelUnits'
 
 //REACT SLICK SLIDER
@@ -79,7 +74,7 @@ const sliderRef = useRef(null);
               Learn More
             </button></Link>
         </div>
-        <img src={heroBG} alt='HERO' className='bg-black mt-8'/>
+        <LazyLoadImage src='https://ik.imagekit.io/vah26qifw/building_facade__ovH_1y2I.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1666183301155' alt='HERO' className='bg-black mt-8'/>
     </div>
 
     {/* VIDEO SECTION */}
@@ -92,7 +87,7 @@ const sliderRef = useRef(null);
                 
             </div>
             <div className='col-span-3'>
-                <video src={video} autoPlay loop muted className='border rounded-xl drop-shadow-lg'/>
+                <video src='https://ik.imagekit.io/vah26qifw/aoneVideoBG_2YQj8n5Sz.mp4?ik-sdk-version=javascript-1.4.3&updatedAt=1666184029142' autoPlay loop muted className='border rounded-xl drop-shadow-lg'/>
             </div>
         </div>
 
@@ -132,7 +127,7 @@ const sliderRef = useRef(null);
         {/* IMAGE GALLERY */}
         <div className='overflow-hidden relative bg-fixed bg-cover bg-no-repeat w-full' id='gallery'
             style={{
-                backgroundImage: `url(${bg})`
+                backgroundImage: `url('https://ik.imagekit.io/vah26qifw/facade2_YtehqypsS.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1666183760876')`
             }}>      
                 <div className='absolute inset-0 bg-gray-900 bg-opacity-75'></div>
                     
