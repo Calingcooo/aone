@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import NthFloor from '../../../data/NthFloor'
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 //ICONS
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -11,7 +12,6 @@ function NthFloorGallery () {
     const [ floorSliderData, setfloorSliderData ] = useState(NthFloor[0])
 
     const handleClick = (index) => {
-        console.log(index)
         const slider = NthFloor[index]
         setfloorSliderData(slider)
     }
@@ -30,7 +30,7 @@ function NthFloorGallery () {
   return (
     <div className='col-span-5 relative mt-5 md:my-10'>
         <div className='flex justify-center mb-5'>
-            <img src={floorSliderData.image} alt='Image Selected'  className='h-full w-4/5 shadow-drop-lg rounded-xl'/>
+            <LazyLoadImage src={floorSliderData.image} alt='Image Selected'  className='h-full w-4/5 shadow-drop-lg rounded-xl'/>
         </div>
 
         <div className='relative flex items-center w-full'>
@@ -39,7 +39,7 @@ function NthFloorGallery () {
 
             <div className='flex flex-row justify-center w-full h-full overflow-x-scroll scroll whitespace-no-wrap scroll-smooth scrollbar-hide' id='slider'>
                 {NthFloor.map((img, i) => (
-                    <img src={img.image} key={img.id} alt={img.image} className='max-h-14 md:max-h-24 w-30 mb-5 cursor-pointer rounded-xl p-2 drop-shadow-xl hover:scale-105 ease-in-out duration-300'
+                    <LazyLoadImage src={img.image} key={img.id} alt={img.image} className='max-h-14 md:max-h-24 w-30 mb-5 cursor-pointer rounded-xl p-2 drop-shadow-xl hover:scale-105 ease-in-out duration-300'
                         onClick={() => handleClick(i)}/>
                         ))}
             </div>
