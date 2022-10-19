@@ -14,17 +14,9 @@ function Home() {
   return (
     <>
     <Helmet>
-    <meta
-      name="description"
-      content="Makati City Subway, Inc., a wholly-owned subsidiary of Philippine Infradev Holdings, Inc., is developing the company's first infrastructure project: an intracity subway system in Makati City. At least eight stations will be included in the 8-kilometer dual rail subway system."
-    />
-
-    <link rel='canonical' href='https://aone.com.ph/' />
-
-    <title>
-      AOne
-    </title>
-
+      <link rel='canonical' href='https://aone.com.ph/' />
+      <title>Aone</title>
+      <meta name="title" content="AOne" />
     </Helmet>
     <div className='bg-beige'>
       <Navbar />
