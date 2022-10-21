@@ -22,7 +22,7 @@ const AboutSection = () => {
     <div  className='antialiased'> 
     <div className='grid-px-5 drop-shadow-2xl'>
         {/* ABOUT THE PROJECT SECTION */}
-        <div className='flex items-center mt-10 md:p-20 grid grid-cols-4'>
+        <div className='mt-10 md:p-20 grid grid-cols-4'>
             <div className='col-span-4 p-5 md:col-span-2'>
                 <h1 className='text-center font-black text-cyan-900 tracking-wide md:tracking-widest p-5 uppercase text-4xl md:text-5xl'>about the project</h1>
                 <p className='indent-8 leading-relaxed text-left text-sm tracking-normal py-5 md:text-lg md:px-5'>
@@ -42,7 +42,7 @@ const AboutSection = () => {
         <hr />
 
         {/* FIRST SECTION */}
-        <div className='grid grid-col-4 md:gap-3 flex justify-center mt-5 md:pb-5'>
+        <div className='grid grid-col-4 md:gap-3 mt-5 md:pb-5'>
 
             <div className='col-span-4 flex justify-center md:mt-10'>
                 <h1 className='col-span-4 text-cyan-900 text-2xl text-center uppercase p-5 font-black'>first-class luxury made a reality</h1>
@@ -65,7 +65,7 @@ const AboutSection = () => {
         <hr />
         
         {/* SECOND SECTION */}
-        <div className='grid grid-col-4 md:gap-3 flex justify-center mt-5 md:pb-5'>
+        <div className='grid grid-col-4 md:gap-3 mt-5 md:pb-5'>
 
             <div className='col-span-4 flex justify-center md:mt-10'>
                 <h1 className='col-span-4 text-cyan-900 text-2xl text-center uppercase p-5 font-black'> sublime opulence</h1>
@@ -89,7 +89,7 @@ const AboutSection = () => {
         <hr />
 
         {/* THIRD SECTION */}
-        <div className='grid grid-col-4 md:gap-3 flex justify-center mt-5 md:pb-5'>
+        <div className='grid grid-col-4 md:gap-3 mt-5 md:pb-5'>
             <div className='col-span-4 flex justify-center md:mt-10'>
                 <h1 className='col-span-4 text-cyan-900 text-2xl text-center uppercase p-5 font-black'>setting the stage for transit development</h1>
             </div>
@@ -114,7 +114,7 @@ const AboutSection = () => {
         <hr />
 
         {/* FOURTH SECTION */}
-        <div className='grid grid-col-4 md:gap-3 flex justify-center mt-5 md:pb-5' id='location'>
+        <div className='grid grid-col-4 md:gap-3 mt-5 md:pb-5' id='location'>
 
             <div className='col-span-4 flex justify-center md:mt-10'>
                 <h1 className='col-span-4 text-cyan-900 text-2xl text-center uppercase p-5 font-black'>Location</h1>

@@ -135,12 +135,12 @@ const sliderRef = useRef(null);
                         <div>
                             <h1 className='text-yellow text-7xl text-center font-black w-full py-5'>Gallery</h1>
                         </div>
-                        <div className='flex flex-col justify-center items-center md:flex-row text-white my-5'>
-                            <button className='px-5 py-2 mt-3 bg-yellow rounded-lg hover:scale-105 ease-in-out duration-300'
+                        <div className='grid grid-cols-9 gap-3 w-full text-white p-5'>
+                            <button className='col-span-3 px-5 py-2 md:ml-2 mt-3 bg-yellow rounded-lg hover:scale-105 ease-in-out duration-300'
                                 onClick={() => setActive('MainGallery')}>TOWERS MAIN LOBBY</button>
-                            <button className='px-5 py-2 ml-5 mt-3 bg-yellow rounded-lg hover:scale-105 ease-in-out duration-300'
+                            <button className='col-span-3 px-5 py-2 md:ml-2 mt-3 bg-yellow rounded-lg hover:scale-105 ease-in-out duration-300'
                                 onClick={() => setActive('NthFloorGallery')}>9TH FLOOR AMENITIES</button>
-                            <button className='px-5 py-2 ml-5 mt-3 bg-yellow rounded-lg hover:scale-105 ease-in-out duration-300'
+                            <button className='col-span-3 px-5 py-2 md:ml-2 mt-3 bg-yellow rounded-lg hover:scale-105 ease-in-out duration-300'
                                 onClick={() => setActive('RoofDeckGallery')}>ROOF DECK AMENITIES</button>
                         </div>
                         { active === 'MainGallery' && <MainLobbyGallery /> }
