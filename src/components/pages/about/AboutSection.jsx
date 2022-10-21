@@ -126,7 +126,22 @@ const AboutSection = () => {
 
             <div className='flex flex-col justify-center p-5 col-span-4 md:col-span-2'>
                 
+                <p className='leading-relaxed text-left text-sm md:text-lg tracking-normal whitespace-normal p-2'>
+                    Without the proximity to work and living necessities, neither a 
+                    business district nor an ideal home would advance far.
+                </p>
 
+                <p className='leading-relaxed text-left text-sm md:text-lg tracking-normal whitespace-normal p-2'>
+                    Surrounded by banks, hospitals, and medical clinics, restaurants, parks, shopping center,  and lifestyle malls, 
+                    the condominium is also linked to the Makati City Subway System giving the AOne the ultimate word on residential
+                    address location for life and work balance.
+                </p>
+
+                <p className='leading-relaxed text-left text-sm md:text-lg tracking-normal whitespace-normal p-2'>
+                    The project is situated 2.5 kilometers away from Makati City Hall and 1 kilometer away from Legaspi,
+                    which is home to a number of well-known pocket parks. The Chinese embassy, which situated in Buendia Avenue, can be reached in 1 
+                    kilometer, while Ayala Triangle can be reached in 1.2 kiometers.
+                </p>
         
 
             </div>
