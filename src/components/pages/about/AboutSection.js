@@ -49,7 +49,7 @@ const AboutSection = () => {
             </div>
 
             <div className='col-span-4 md:col-span-2 p-5'>
-                <img src={FirstClass} alt='Sky-High' className='h-full order-2 rounded-lg drop-shadow-lg' data-aos="fade-right"/>
+                <img src={FirstClass} alt='First-class luxury' className='h-full order-2 rounded-lg drop-shadow-lg' data-aos="fade-right"/>
             </div>
 
             <div className='flex flex-col justify-center p-5 col-span-4 md:col-span-2'>
@@ -72,7 +72,7 @@ const AboutSection = () => {
             </div>
 
             <div className='col-span-4 md:col-span-2 md:order-3 p-5'>
-                <img src={Sublime} alt='Sky-High' className='order-2 md:h-5/6 rounded-lg drop-shadow-lg' data-aos="fade-left"/>
+                <img src={Sublime} alt='Sublime Opulence' className='order-2 md:h-5/6 rounded-lg drop-shadow-lg' data-aos="fade-left"/>
             </div>
 
             <div className='flex flex-col justify-center p-5 col-span-4 md:col-span-2'>
@@ -95,7 +95,7 @@ const AboutSection = () => {
             </div>
 
             <div className='col-span-4 md:col-span-2 p-5'>
-                <img src={Transit} alt='Sky-High' className='rounded-lg drop-shadow-lg' data-aos="fade-right"/>
+                <img src={Transit} alt='Transit' className='rounded-lg drop-shadow-lg' data-aos="fade-right"/>
             </div>
 
             <div className='flex flex-col justify-center p-5 col-span-4 md:col-span-2'>
@@ -121,7 +121,7 @@ const AboutSection = () => {
             </div>
 
             <div className='col-span-4 md:order-3 md:col-span-2'>
-                <img src={Map} alt='Sky-High' className='rounded-lg drop-shadow-lg p-5' data-aos="fade-left"/>
+                <img src={Map} alt='Map' className='rounded-lg drop-shadow-lg p-5' data-aos="fade-left"/>
             </div>
 
             <div className='flex flex-col justify-center p-5 col-span-4 md:col-span-2'>

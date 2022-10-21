@@ -13,42 +13,52 @@ import lobby10 from '../assets/images/ImageGallery/MainLobby/lobby10.webp';
 const MainGallery = [
     {
         id: 1,
+        name: "img1",
         image: lobby1,
     },
     {
         id: 2,
+        name: "img2",
         image: lobby2,
     },
     {
         id: 3,
+        name: "img3",
         image: lobby3,
     },
     {
         id: 4,
+        name: "img4",
         image: lobby4,
     },
     {
         id: 5,
+        name: "img5",
         image: lobby5,
     },
     {
         id: 6,
+        name: "img6",
         image: lobby6,
     },
     {
         id: 7,
+        name: "img7",
         image: lobby7,
     },
     {
         id: 8,
+        name: "img8",
         image: lobby8,
     },
     {
         id: 9,
+        name: "img9",
         image: lobby9,
     },
     {
         id: 10,
+        name: "img10",
         image: lobby10,
     },
 ];

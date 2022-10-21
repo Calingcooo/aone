@@ -28,102 +28,127 @@ import img25 from '../assets/images/ModelUnits/img25.webp'
 const ModelUnits = [
     {
       id: 1,
+      name: "unit1",
       image: img1,
     },
     {
       id: 2,
+      name: "unit2",
       image: img2,
     },
     {
       id: 3,
+      name: "unit3",
       image: img3,
     },
     {
       id: 4,
+      name: "unit4",
       image: img4,
     },
     {
       id: 5,
+      name: "unit5",
       image: img5,
     },
     {
       id: 6,
+      name: "unit6",
       image: img6,
     },
     {
       id: 7,
+      name: "unit7",
       image: img7,
     },
     {
       id: 8,
+      name: "unit8",
       image: img8,
     },
     {
       id: 9,
+      name: "unit9",
       image: img9,
     },
     {
       id: 10,
+      name: "unit10",
       image: img10,
     },
     {
       id: 11,
+      name: "unit11",
       image: img11,
     },
     {
       id: 12,
+      name: "unit12",
       image: img12,
     },
     {
       id: 13,
+      name: "unit13",
       image: img13,
     },
     {
       id: 14,
+      name: "unit14",
       image: img14,
     },
     {
       id: 15,
+      name: "unit15",
       image: img15,
     },
     {
       id: 16,
+      name: "unit16",
       image: img16,
     },
     {
       id: 17,
+      name: "unit17",
       image: img17,
     },
     {
       id: 18,
+      name: "unit18",
       image: img18,
     },
     {
       id: 19,
+      name: "unit19",
       image: img19,
     },
     {
       id: 20,
+      name: "unit20",
       image: img20,
     },
     {
       id: 21,
+      name: "unit21",
       image: img21,
     },
     {
       id: 22,
+      name: "unit22",
       image: img22,
     },
     {
       id: 23,
+      name: "unit23",
       image: img23,
     },
     {
       id: 24,
+      name: "unit24",
       image: img24,
     },
     {
       id: 25,
+      name: "unit25",
       image: img25,
     }
   ];

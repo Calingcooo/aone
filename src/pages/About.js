@@ -15,7 +15,7 @@ function About() {
     <Helmet>
     <link rel='canonical' href='https://aone.com.ph/About-The-Project' />
 
-    <title>Aone - ABOUT THE PROJECT</title>
+    <title>AOne - ABOUT THE PROJECT</title>
       <meta name="title" content="AOne - ABOUT THE PROJECT" />
     </Helmet>
       <div className='overflow-hidden bg-beige'>

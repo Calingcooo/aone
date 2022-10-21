@@ -112,7 +112,7 @@ const sliderRef = useRef(null);
             <Slider ref={sliderRef} {...settings}>
                 {units.map((img) => (
                     <div className='p-1 md:p-5' key={img.id}>                 
-                        <LazyLoadImage src={img.image} alt={img.image} className='h-24 md:h-52 2xl:h-[500px] w-3/4 md:w-full bg-contain rounded-xl drop-shadow-xl'/>
+                        <LazyLoadImage src={img.image} alt={img.name} className='h-24 md:h-52 2xl:h-[500px] w-3/4 md:w-full bg-contain rounded-xl drop-shadow-xl'/>
                     </div>
                 ))}
             </Slider>

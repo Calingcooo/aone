@@ -15,7 +15,7 @@ function Home() {
     <>
     <Helmet>
       <link rel='canonical' href='https://aone.com.ph/' />
-      <title>Aone</title>
+      <title>AOne</title>
       <meta name="title" content="AOne" />
     </Helmet>
     <div className='bg-beige'>

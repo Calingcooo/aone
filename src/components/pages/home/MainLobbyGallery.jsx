@@ -38,7 +38,7 @@ function MainLobbyGallery() {
 
             <div className='flex flex-row justify-center w-full h-full overflow-x-scroll scroll whitespace-no-wrap scroll-smooth scrollbar-hide' id='slider'>
                 {MainLobby.map((img, i) => (
-                    <LazyLoadImage src={img.image} key={img.id} alt={img.image} className='max-h-14 md:max-h-24 w-30 mb-5 cursor-pointer rounded-xl p-2 drop-shadow-xl hover:scale-105 ease-in-out duration-300'
+                    <LazyLoadImage src={img.image} key={img.id} alt={img.name} className='max-h-14 md:max-h-24 w-30 mb-5 cursor-pointer rounded-xl p-2 drop-shadow-xl hover:scale-105 ease-in-out duration-300'
                         onClick={() => handleClick(i)}/>
                         ))}
             </div>

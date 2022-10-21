@@ -6,18 +6,22 @@ import Floor4 from '../assets/images/ImageGallery/NthFloorAmenities/NthFloor4.we
 const NthFloor = [
     {
         id: 1,
+        name: "amenities1",
         image: Floor1,
     },
     {
         id: 2,
+        name: "amenities2",
         image: Floor2,
     },
     {
         id: 3,
+        name: "amenities3",
         image: Floor3,
     },
     {
         id: 4,
+        name: "amenities4",
         image: Floor4,
     },
 ];
