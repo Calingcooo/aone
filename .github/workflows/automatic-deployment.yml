@@ -27,4 +27,4 @@ jobs:
     - run: npm ci
     - run: npm test
     - run: npm run build
-    - run: mv public_html
+    - run: mv /home/u618995230/domains/aone.com.ph/public_html
