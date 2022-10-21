@@ -89,7 +89,7 @@ const AboutSection = () => {
         <hr />
 
         {/* THIRD SECTION */}
-        <div className='grid grid-col-4 md:gap-3 flex justify-center mt-5 md:pb-5'>
+        <div className='grid grid-col-4 md:gap-3 mt-5 md:pb-5'>
             <div className='col-span-4 flex justify-center md:mt-10'>
                 <h1 className='col-span-4 text-cyan-900 text-2xl text-center uppercase p-5 font-black'>setting the stage for transit development</h1>
             </div>
