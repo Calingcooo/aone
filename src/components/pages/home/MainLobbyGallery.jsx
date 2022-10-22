@@ -29,7 +29,7 @@ function MainLobbyGallery() {
   return (
     <div className='col-span-5 relative mt-5 md:my-10'>
         <div className='flex justify-center items-center mb-5'>
-            <LazyLoadImage src={sliderData.image} alt='Image Selected'  className='flex justify-center h-full w-4/5 shadow-drop-lg rounded-xl'/>
+            <LazyLoadImage src={sliderData.image} alt='Image Selected' className='flex justify-center h-full w-4/5 shadow-drop-lg rounded-xl'/>
         </div>
 
         <div className='relative flex items-center'>

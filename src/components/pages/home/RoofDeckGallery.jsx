@@ -29,7 +29,7 @@ function RoofDeckGallery () {
   return (
     <div className='col-span-5 relative mt-5 md:my-10'>
         <div className='flex justify-center mb-5'>
-            <LazyLoadImage src={rdSliderData.image} alt='Image Selected'  className='h-full w-4/5 shadow-drop-lg rounded-xl'/>
+            <LazyLoadImage src={rdSliderData.image} alt='Image Selected' className='h-full w-4/5 shadow-drop-lg rounded-xl'/>
         </div>
 
         <div className='relative flex items-center w-full'>
