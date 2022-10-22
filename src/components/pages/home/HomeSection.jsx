@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 //COMPONENTS
 import MainLobbyGallery from './MainLobbyGallery'
@@ -112,7 +113,7 @@ const sliderRef = useRef(null);
             <Slider ref={sliderRef} {...settings}>
                 {units.map((img) => (
                     <div className='p-1 md:p-5' key={img.id}>                 
-                        <LazyLoadImage src={img.image} alt={img.name} className='h-24 md:h-52 2xl:h-[500px] w-3/4 md:w-full bg-contain rounded-xl drop-shadow-xl'/>
+                        <LazyLoadImage effect='blur' src={img.image} alt={img.name} className='h-24 md:h-52 2xl:h-[500px] w-3/4 md:w-full bg-contain rounded-xl drop-shadow-xl'/>
                     </div>
                 ))}
             </Slider>

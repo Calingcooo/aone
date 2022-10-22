@@ -28,8 +28,8 @@ function MainLobbyGallery() {
 
   return (
     <div className='col-span-5 relative mt-5 md:my-10'>
-        <div className='flex justify-center mb-5'>
-            <LazyLoadImage src={sliderData.image} alt='Image Selected'  className='h-full w-4/5 shadow-drop-lg rounded-xl'/>
+        <div className='flex justify-center items-center mb-5'>
+            <LazyLoadImage src={sliderData.image} alt='Image Selected'  className='flex justify-center h-full w-4/5 shadow-drop-lg rounded-xl'/>
         </div>
 
         <div className='relative flex items-center'>
@@ -44,7 +44,7 @@ function MainLobbyGallery() {
             </div>
                 <FontAwesomeIcon icon={faPlay} className='cursor-pointer h-10 md:h-16 opacity-75 hover:opacity-100' id='arrow' 
                     onClick={slideRight}/>
-                </div>
+        </div>
     </div>
   )
 }
