@@ -7,7 +7,7 @@ import { Helmet } from 'react-helmet'
 
 function App() {
   return (
-    <>
+    <div>
     <Helmet>
       {/*Primary Meta Tags*/}
       <meta name="description" content="Makati City Subway, Inc., a wholly-owned subsidiary of Philippine Infradev Holdings, Inc., is developing the company's first infrastructure project: an intracity subway system in Makati City. At least eight stations will be included in the 8-kilometer dual rail subway system. Complementing the subway system are transit-oriented developments (TOD’s) to support the operation." />
@@ -26,13 +26,15 @@ function App() {
       <meta property="twitter:description" content="Makati City Subway, Inc., a wholly-owned subsidiary of Philippine Infradev Holdings, Inc., is developing the company's first infrastructure project: an intracity subway system in Makati City. At least eight stations will be included in the 8-kilometer dual rail subway system. Complementing the subway system are transit-oriented developments (TOD’s) to support the operation." />
       <meta property="twitter:image" content="https://ik.imagekit.io/vah26qifw/Home_9HVbr17sV.png?ik-sdk-version=javascript-1.4.3&updatedAt=1666213134522" />
     </Helmet>
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={ <Home /> }></Route>
-        <Route path="/About-the-project" element={ <About /> }></Route>
-      </Routes>
-    </BrowserRouter>
-    </>
+    <div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={ <Home /> }></Route>
+          <Route path="/About-the-project" element={ <About /> }></Route>
+        </Routes>
+      </BrowserRouter>
+    </div>
+    </div>
   );
 }
 

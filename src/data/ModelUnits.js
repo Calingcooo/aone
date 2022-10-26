@@ -1,155 +1,128 @@
-import img1 from '../assets/images/ModelUnits/img1.webp'
-import img2 from '../assets/images/ModelUnits/img2.webp'
-import img3 from '../assets/images/ModelUnits/img3.webp'
-import img4 from '../assets/images/ModelUnits/img4.webp'
-import img5 from '../assets/images/ModelUnits/img5.webp'
-import img6 from '../assets/images/ModelUnits/img6.webp'
-import img7 from '../assets/images/ModelUnits/img7.webp'
-import img8 from '../assets/images/ModelUnits/img8.webp'
-import img9 from '../assets/images/ModelUnits/img9.webp'
-import img10 from '../assets/images/ModelUnits/img10.webp'
-import img11 from '../assets/images/ModelUnits/img11.webp'
-import img12 from '../assets/images/ModelUnits/img12.webp'
-import img13 from '../assets/images/ModelUnits/img13.webp'
-import img14 from '../assets/images/ModelUnits/img14.webp'
-import img15 from '../assets/images/ModelUnits/img15.webp'
-import img16 from '../assets/images/ModelUnits/img16.webp'
-import img17 from '../assets/images/ModelUnits/img17.webp'
-import img18 from '../assets/images/ModelUnits/img18.webp'
-import img19 from '../assets/images/ModelUnits/img19.webp'
-import img20 from '../assets/images/ModelUnits/img20.webp'
-import img21 from '../assets/images/ModelUnits/img21.webp'
-import img22 from '../assets/images/ModelUnits/img22.webp'
-import img23 from '../assets/images/ModelUnits/img23.webp'
-import img24 from '../assets/images/ModelUnits/img24.webp'
-import img25 from '../assets/images/ModelUnits/img25.webp'
-
-
 const ModelUnits = [
     {
       id: 1,
-      name: "unit1",
-      image: img1,
+      name: "Model Unit 1",
+      image: 'https://ik.imagekit.io/vah26qifw/tr:250/Model_Units/Model_Unit_1_vSiKTpAvy.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1666796879185'
     },
     {
       id: 2,
-      name: "unit2",
-      image: img2,
+      name: "Model Unit 2",
+      image: 'https://ik.imagekit.io/vah26qifw/tr:250/Model_Units/Model_Unit_2_iag3NYh5X.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1666796879230'
     },
     {
       id: 3,
-      name: "unit3",
-      image: img3,
+      name: "Model Unit 3",
+      image: 'https://ik.imagekit.io/vah26qifw/tr:250/Model_Units/Model_Unit_3_wNfV_KQDD.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1666796879312'
     },
     {
       id: 4,
-      name: "unit4",
-      image: img4,
+      name: "Model Unit 4",
+      image: 'https://ik.imagekit.io/vah26qifw/tr:250/Model_Units/Model_Unit_4_TowWRnfZa.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1666796879187'
     },
     {
       id: 5,
-      name: "unit5",
-      image: img5,
+      name: "Model Unit 5",
+      image: 'https://ik.imagekit.io/vah26qifw/tr:250/Model_Units/Model_Unit_5_JKmO9ZEj7.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1666796879092'
     },
     {
       id: 6,
-      name: "unit6",
-      image: img6,
+      name: "Model Unit 6",
+      image: 'https://ik.imagekit.io/vah26qifw/tr:250/Model_Units/Model_Unit_6_jVIwmaPva.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1666796915104'
     },
     {
       id: 7,
-      name: "unit7",
-      image: img7,
+      name: "Model Unit 7",
+      image: 'https://ik.imagekit.io/vah26qifw/tr:250/Model_Units/Model_Unit_7_itjjb7vrv.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1666796916184'
     },
     {
       id: 8,
-      name: "unit8",
-      image: img8,
+      name: "Model Unit 8",
+      image: 'https://ik.imagekit.io/vah26qifw/tr:250/Model_Units/Model_Unit_8_BX9P5bkc9.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1666796915639'
     },
     {
       id: 9,
-      name: "unit9",
-      image: img9,
+      name: "Model Unit 9",
+      image: 'https://ik.imagekit.io/vah26qifw/tr:250/Model_Units/Model_Unit_9_3sDzjwAQH.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1666796915745'
     },
     {
       id: 10,
-      name: "unit10",
-      image: img10,
+      name: "Model Unit 10",
+      image: 'https://ik.imagekit.io/vah26qifw/tr:250/Model_Units/Model_Unit_10_LZY9Bqt1j.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1666796919960'
     },
     {
       id: 11,
-      name: "unit11",
-      image: img11,
+      name: "Model Unit 11",
+      image: 'https://ik.imagekit.io/vah26qifw/tr:250/Model_Units/Model_Unit_11_w3r4ZLGVc.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1666796919285'
     },
     {
       id: 12,
-      name: "unit12",
-      image: img12,
+      name: "Model Unit 12",
+      image: 'https://ik.imagekit.io/vah26qifw/tr:250/Model_Units/Model_Unit_12_jsR64_SXI.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1666796921206'
     },
     {
       id: 13,
-      name: "unit13",
-      image: img13,
+      name: "Model Unit 13",
+      image: 'https://ik.imagekit.io/vah26qifw/tr:250/Model_Units/Model_Unit_13_9aPIxtaNj.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1666796921278'
     },
     {
       id: 14,
-      name: "unit14",
-      image: img14,
+      name: "Model Unit 14",
+      image: 'https://ik.imagekit.io/vah26qifw/tr:250/Model_Units/Model_Unit_14_MRlL-nK4i7.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1666796921850'
     },
     {
       id: 15,
-      name: "unit15",
-      image: img15,
+      name: "Model Unit 15",
+      image: 'https://ik.imagekit.io/vah26qifw/tr:250/Model_Units/Model_Unit_15_XqauVmcQb.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1666796922382'
     },
     {
       id: 16,
-      name: "unit16",
-      image: img16,
+      name: "Model Unit 16",
+      image: 'https://ik.imagekit.io/vah26qifw/tr:250/Model_Units/Model_Unit_16_s3vuSlVmfG.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1666796922998'
     },
     {
       id: 17,
-      name: "unit17",
-      image: img17,
+      name: "Model Unit 17",
+      image: 'https://ik.imagekit.io/vah26qifw/tr:250/Model_Units/Model_Unit_17_oqQ-Q3PLn.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1666796921343'
     },
     {
       id: 18,
-      name: "unit18",
-      image: img18,
+      name: "Model Unit 18",
+      image: 'https://ik.imagekit.io/vah26qifw/tr:250/Model_Units/Model_Unit_18_60VWA1MtQ.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1666796923268'
     },
     {
       id: 19,
-      name: "unit19",
-      image: img19,
+      name: "Model Unit 19",
+      image: 'https://ik.imagekit.io/vah26qifw/tr:250/Model_Units/Model_Unit_19_Ci0H-acDC.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1666796922794'
     },
     {
       id: 20,
-      name: "unit20",
-      image: img20,
+      name: "Model Unit 20",
+      image: 'https://ik.imagekit.io/vah26qifw/tr:250/Model_Units/Model_Unit_20_RXHU3Yl72.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1666796924070'
     },
     {
       id: 21,
-      name: "unit21",
-      image: img21,
+      name: "Model Unit 21",
+      image: 'https://ik.imagekit.io/vah26qifw/tr:250/Model_Units/Model_Unit_21_TDc1oC9Y_.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1666796924267'
     },
     {
       id: 22,
-      name: "unit22",
-      image: img22,
+      name: "Model Unit 22",
+      image: 'https://ik.imagekit.io/vah26qifw/tr:250/Model_Units/Model_Unit_22_rgnim4aVf.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1666796924855'
     },
     {
       id: 23,
-      name: "unit23",
-      image: img23,
+      name: "Model Unit 23",
+      image: 'https://ik.imagekit.io/vah26qifw/tr:250/Model_Units/Model_Unit_23_NGjmcknDT.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1666796925795'
     },
     {
       id: 24,
-      name: "unit24",
-      image: img24,
+      name: "Model Unit 24",
+      image: 'https://ik.imagekit.io/vah26qifw/tr:250/Model_Units/Model_Unit_24_GB5t4Y_rl.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1666796925804'
     },
     {
       id: 25,
-      name: "unit25",
-      image: img25,
+      name: "Model Unit 25",
+      image: 'https://ik.imagekit.io/vah26qifw/tr:250/Model_Units/Model_Unit_25_v2v6X4kvN.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1666796917827'
     }
   ];
   

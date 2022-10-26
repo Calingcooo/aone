@@ -1,28 +1,23 @@
-import Floor1 from '../assets/images/ImageGallery/NthFloorAmenities/NthFloor1.webp';
-import Floor2 from '../assets/images/ImageGallery/NthFloorAmenities/NthFloor2.webp';
-import Floor3 from '../assets/images/ImageGallery/NthFloorAmenities/NthFloor3.webp';
-import Floor4 from '../assets/images/ImageGallery/NthFloorAmenities/NthFloor4.webp';
-
 const NthFloor = [
     {
         id: 1,
-        name: "amenities1",
-        image: Floor1,
+        name: "9th Floor Amenities 1",
+        image: 'https://ik.imagekit.io/vah26qifw/9th_Floor_Amenities/9NthFloor1_dlacSK5np.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1666792658295',
     },
     {
         id: 2,
-        name: "amenities2",
-        image: Floor2,
+        name: "9th Floor Amenities 2",
+        image: 'https://ik.imagekit.io/vah26qifw/9th_Floor_Amenities/9NthFloor2_2l6utPD6o.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1666792657794',
     },
     {
         id: 3,
-        name: "amenities3",
-        image: Floor3,
+        name: "9th Floor Amenities 3",
+        image: 'https://ik.imagekit.io/vah26qifw/9th_Floor_Amenities/9NthFloor3__KPywRSMb.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1666792657824',
     },
     {
         id: 4,
-        name: "amenities4",
-        image: Floor4,
+        name: "9th Floor Amenities 4",
+        image: 'https://ik.imagekit.io/vah26qifw/9th_Floor_Amenities/9NthFloor4__Eug2fPet.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1666792657789',
     },
 ];
 

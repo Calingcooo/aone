@@ -31,8 +31,6 @@ button.slick-arrow .slick-next {
 
 #arrow {
     color: #bba14f;
-    width: 40px;
-    height: 50px;
 }
 
 
@@ -88,6 +86,11 @@ button.slick-arrow .slick-next {
         opacity: 0;
         transform: rotate(225deg) translate(-20px, -20px);
     }
+}
+
+.lazy-load-image-loaded {
+    display: flex;
+    justify-content: center;
 }
 
 
