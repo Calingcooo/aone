@@ -1,8 +1,10 @@
+import React, { lazy, Suspense } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import About from './pages/About';
+import PageLoading from './components/PageLoading'
 import { Helmet } from 'react-helmet'
 
+const LazyAbout = lazy(() => import('./pages/About'))
+const LazyHome = lazy(() => import('./pages/Home'))
 
 
 function App() {
@@ -29,8 +31,16 @@ function App() {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={ <Home /> }></Route>
-          <Route path="/About-the-project" element={ <About /> }></Route>
+          <Route path="/" element={
+            <Suspense fallback={<PageLoading/>}>
+              <LazyHome /> 
+            </Suspense>
+          }></Route>
+          <Route path="/About-the-project" element={ 
+            <Suspense fallback={<PageLoading/>}>
+              <LazyAbout /> 
+            </Suspense>
+          }></Route>
         </Routes>
       </BrowserRouter>
     </div>

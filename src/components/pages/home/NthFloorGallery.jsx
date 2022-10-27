@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import NthFloor from '../../../data/NthFloor'
+import NthFloor from '../../../data/NthFloor.json'
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 //ICONS

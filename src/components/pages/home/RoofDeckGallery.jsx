@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import RoofDeck from '../../../data/RoofDeck'
+import RoofDeck from '../../../data/RoofDeck.json'
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 //ICONS

@@ -1,5 +1,5 @@
-import React, { Suspense, useState } from 'react'
-import MainLobby from '../../../data/MainLobby'
+import React, { useState } from 'react'
+import MainLobby from '../../../data/MainLobby.json'
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import '../../../index.css'
 
@@ -10,10 +10,6 @@ import { faPlay } from '@fortawesome/free-solid-svg-icons'
 function MainLobbyGallery() {
 
     const [ sliderData, setSliderData ] = useState(MainLobby[0])
-
-    const loading = () => {
-        console.log('Please Wait...')
-    }
 
     const handleClick = (index) => {
         const slider = MainLobby[index]
@@ -32,7 +28,6 @@ function MainLobbyGallery() {
 
 
   return (
-    <Suspense fallback={loading}>
     <div className='col-span-5 relative mt-5 md:my-10'>
         
         <div className='flex justify-center items-center mb-5'>
@@ -53,7 +48,6 @@ function MainLobbyGallery() {
                     onClick={slideRight}/>
         </div>
     </div>
-    </Suspense>
   )
 }
 

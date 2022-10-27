@@ -1,12 +1,12 @@
-import React, { useRef, useState, lazy } from 'react'
+import React, { useRef, useState} from 'react'
 import { Link } from 'react-router-dom'
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import 'react-lazy-load-image-component/src/effects/blur.css';
 
 //COMPONENTS
-import MainLobbyGallery from './MainLobbyGallery'
-import NthFloorGallery from './NthFloorGallery'
-import RoofDeckGallery from './RoofDeckGallery'
+import MainLobbyGallery from './MainLobbyGallery';
+import NthFloorGallery from './NthFloorGallery';
+import RoofDeckGallery from './RoofDeckGallery';
 
 //IMAGES
 import units from '../../../data/ModelUnits'
@@ -149,9 +149,9 @@ const sliderRef = useRef(null);
                                 onClick={() => setActive('RoofDeckGallery')}>ROOF DECK AMENITIES</button>
                         </div>
                         <div className='col-span-9'>
-                            { active === 'MainGallery' && <MainLobbyGallery load={lazy}/> }
-                            { active === 'NthFloorGallery' && <NthFloorGallery load={lazy}/> }
-                            { active === 'RoofDeckGallery' && <RoofDeckGallery load={lazy}/> }
+                            { active === 'MainGallery' && <MainLobbyGallery /> }
+                            { active === 'NthFloorGallery' && <NthFloorGallery /> }
+                            { active === 'RoofDeckGallery' && <RoofDeckGallery /> }
                         </div>     
                     </div>
                 </div>
