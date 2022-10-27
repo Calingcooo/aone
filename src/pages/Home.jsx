@@ -6,7 +6,6 @@ import "react-lazy-load-image-component/src/effects/blur.css";
 //Components
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import PageLoading from "../components/PageLoading";
 //IMAGES
 import units from "../data/ModelUnits.json";
 //REACT SLICK SLIDER
