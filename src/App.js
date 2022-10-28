@@ -18,7 +18,7 @@ function App() {
 
         {/*Open Graph / Facebook*/}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.aone.com.ph/" />
+        <meta property="og:url" content="https://aone.com.ph/" />
         <meta property="og:title" content="AOne" />
         <meta
           property="og:description"
@@ -31,7 +31,7 @@ function App() {
 
         {/*Twitter*/}
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://www.aone.com.ph/" />
+        <meta property="twitter:url" content="https://aone.com.ph/" />
         <meta property="twitter:title" content="AOne" />
         <meta
           property="twitter:description"
