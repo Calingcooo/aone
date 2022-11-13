@@ -55,10 +55,10 @@ function Navbar ()  {
                       >
                           <ul className="flex flex-col tracking-wide text-lg md:flex-row md:item-center items-center justify-center space-y-8 md:flex md:space-x-4 md:space-y-0">
                               <Link to='/' className="text-zinc-900 hover:text-gray-900 font-extrabold p-3">Home</Link>
-                              <a href='https://aone.com.ph/#about' className="text-zinc-900 hover:text-gray-900 font-extrabold p-3">About Us</a>
-                              <a href='https://aone.com.ph/#model' className="text-zinc-900 hover:text-gray-900 font-extrabold p-3">Our Model Unit</a>
-                              <a href='https://aone.com.ph/#gallery' className="text-zinc-900 hover:text-gray-900 font-extrabold p-3">Gallery</a>
-                              <a href='https://aone.com.ph/#contact' className="text-zinc-700 hover:text-gray-900 font-extrabold p-3">Contact</a>
+                              <a href='https://aone-l80xhksds-calingcooo.vercel.app/#about' className="text-zinc-900 hover:text-gray-900 font-extrabold p-3">About Us</a>
+                              <a href='https://aone-l80xhksds-calingcooo.vercel.app/#model' className="text-zinc-900 hover:text-gray-900 font-extrabold p-3">Our Model Unit</a>
+                              <a href='https://aone-l80xhksds-calingcooo.vercel.app/#gallery' className="text-zinc-900 hover:text-gray-900 font-extrabold p-3">Gallery</a>
+                              <a href='https://aone-l80xhksds-calingcooo.vercel.app/#contact' className="text-zinc-700 hover:text-gray-900 font-extrabold p-3">Contact</a>
                           </ul>
                       </div>
                   </div>

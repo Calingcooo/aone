@@ -69,7 +69,6 @@ function Home() {
   return (
     <>
       <Helmet>
-        <link rel="canonical" href="https://aone.com.ph/" />
         <title>AOne</title>
         <meta name="title" content="AOne" />
       </Helmet>
@@ -78,7 +77,7 @@ function Home() {
         {/* HERO SECTION */}
         <div className="w-full relative pt-5 md:pt-0" id="home">
           <div className="bottom-5 h-full w-1/2 ml-7 md:ml-20">
-            <Link to="/About-the-project">
+            <Link to="https://aone-l80xhksds-calingcooo.vercel.app/About-the-project">
               <button className="absolute bottom-14 md:bottom-40 text-xxs md:text-xl tracking-wide text-white font-black bg-yellow uppercase w-1/4 py-1 md:py-3 md:px-5 hover:opacity-75 ease-in-out duration-300">
                 Learn More
               </button>
